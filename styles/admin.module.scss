@@ -1,0 +1,42 @@
+.Admin{
+    @apply flex w-full fixed top-0 left-0 bottom-0;
+    &__sitebar{
+        @apply w-1/4 bg-white;
+        &__logo{
+            @apply w-full flex items-center justify-around bg-grenn py-2;
+            img{
+              @apply w-16 ;
+            }
+            h1{
+               @apply text-white text-2xl;
+            }
+        }
+        &__items{
+            @apply w-full;
+            &__item{
+                @apply flex items-center w-full justify-around py-4 text-xl;
+                @apply hover:bg-grenn cursor-pointer hover:text-white ;
+                @apply active:bg-opacity-5 active:ease-in-out  active:cursor-progress ;
+                @apply active:text-grenn transform-cpu duration-300 ;
+                img{
+                    @apply w-8 ;
+                }
+            }
+        }
+    }
+    &__menu{
+        @apply w-3/4 ;
+        &__nav{
+            @apply w-full bg-white h-20;
+        }
+        &__category{
+            @apply w-full flex items-center justify-evenly p-1 bg-white;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.075);    
+            border-top: 2px solid rgba(0, 0, 0, 0.075);                                           
+            button{
+             @apply py-1 px-2 bg-white rounded-3xl border-2 border-grenn;
+             @apply text-grenn hover:bg-kokroq;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: #1b6b50;
+    position: sticky;
+    top:0px;
+    z-index: 50;
+    &__nav{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__item{
+            list-style: none;
+            position: relative;
+            height: auto;
+            transition:all 0.5s ease-in-out;
+            &:hover .Navbar__nav__item__menu{
+              top: 30px;
+              transition:  1s ease-out;
+              display: flex;
+              
+            }
+            &__link{
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: 400;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+
+            }
+            &__menu{
+                  position: absolute;
+                  background-color: white;
+                  padding: 5px;
+                  top: 80px;
+                  display:none;
+                  flex-direction: column;
+                  width: 200px;
+                  transition:0.5s ease-in-out;
+                
+                  &:hover{
+                    display: flex;
+                     transition:all 0.5s ease-in-out;
+                    
+                  }
+                  p{
+                    color:#1b6b50;
+                    font-size: 16px;
+                  
+                  }
+                  &__links{
+                    position: relative;
+                    margin-top: 10px;
+                    border-bottom: 2px solid white;
+                    &:hover{
+                        color: #1b6b50;
+                       border-color: #1b6b50;
+                       transition:all 0.5s ease-in-out;
+                    }
+                    &__category{
+                      display: none;
+                      align-items: center;
+                      flex-direction: column;
+                      position: absolute;
+                      right:-110px;
+                      width: 100px;
+                      padding: 5px;
+                      background-color: white;
+                    }
+                  }
+            }
+        }
+    }
+}
+
+

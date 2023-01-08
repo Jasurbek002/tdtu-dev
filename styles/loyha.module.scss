@@ -1,0 +1,17 @@
+.Loyha{
+    @apply w-full flex items-center flex-wrap justify-around py-20;
+    h1{
+        width: 90%;
+        color: white;
+        background: rgb(135,0,219);
+        background: linear-gradient(90deg, rgba(135,0,219,0.6589986336331408) 37%, rgba(205,75,222,0.7542367288712359) 73%);
+    }
+    &__link{
+     @apply w-36 h-40 flex flex-col items-center justify-center text-center p-2 text-white rounded-sm shadow-4xl mt-4 hover:scale-105;
+     background: rgb(229,108,231);
+     background: radial-gradient(circle, rgba(229,108,231,1) 4%, rgba(42,221,134,0.846673703661152) 68%);
+     img{
+        @apply w-9 h-9 mb-4 hover:scale-105
+     }
+    }
+}

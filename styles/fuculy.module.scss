@@ -1,0 +1,25 @@
+.Fuculy{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+    a{
+        text-decoration: none;
+        margin: 15px;
+        &:hover{
+            background-color: rgb(153, 156, 113);
+            transition:2s;
+            scale: 1.1;
+        }
+        &:hover span{
+            width: 100%;
+            transition:2s;
+        }
+        &:hover img{
+            @apply  animate-spin
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.Topbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    background-color: white;
+    &__logo{
+        width: 100px;
+        height: 100px;
+           &__img{
+           width: 100px;
+           height: 100px;
+           @apply hover:animate-bounce
+           }
+    }
+    &__title{
+        max-width: 800px ;
+        width: 100%;
+        color:#1b6b50;
+        font-size: 20px;
+        font-weight: 900;
+        font-family:'SourceSansPro';
+    }
+    &__btngroup{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background-color: #1b6b50;
+        border-radius: 10px;
+        max-width: 200px;
+        justify-content: space-between;
+        width: 200px;
+        &__lang{
+            background-color: transparent;
+            width: 50px;
+            height: 40px;
+            color:#1b6b50;
+            font-size: 25px;
+            border: none;
+            outline: none;
+            color: white;
+            cursor: pointer;
+            &:optional{
+                background-color: #1b6b50;
+            }
+        }
+    }
+    
+}
+
+
+.continer{
+    max-width: 1640px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

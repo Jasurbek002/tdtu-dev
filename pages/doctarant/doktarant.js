@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import Boss from '../../components/boss/boss.jsx';
+// import Boss from '../../components/boss/boss.jsx';
 import {items1 } from '../../components/data/items.js'
 import strel from './../../public/assets/images/strel.png'
-import adham from './../../public/assets/images/adhamjon.png'
+// import adham from './../../public/assets/images/adhamjon.png'
 import download from './../../public/assets/svg/download.svg'
 const Doktarant = () => {
     return (
@@ -26,10 +26,10 @@ const Doktarant = () => {
             <Image className='w-8 ml-2' src={download} alt='icon' />
            </button>
           </div>
-          <Boss
+          {/* <Boss
            image={adham}
             text={"Xalqaro reyting bo'limi boshlig'i Mahkamov Adhamjon"}
-             />
+             /> */}
         </div>
     );
 }

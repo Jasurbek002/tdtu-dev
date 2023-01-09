@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import { items6 } from '../../components/data/items';
-import Boss from '../../components/boss/boss';
+
 import Image from 'next/image';
 import strel from './../../public/assets/images/strel.png'
-import adham from './../../public/assets/images/adhamjon.png'
+
 const Jurnal = () => {
     return (
       <div className='flex flex-wrap w-full my-20 justify-around'>
@@ -21,10 +21,6 @@ const Jurnal = () => {
       })
      } 
     </div>
-    <Boss
-     image={adham}
-      text={"Xalqaro reyting bo'limi boshlig'i Mahkamov Adhamjon"}
-       />
   </div>
     );
 }

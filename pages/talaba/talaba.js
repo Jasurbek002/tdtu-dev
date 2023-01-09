@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import { items4 } from '../../components/data/items';
-import Boss from '../../components/boss/boss';
+// import Boss from '../../components/boss/boss';
 import Image from 'next/image';
 import strel from './../../public/assets/images/strel.png'
-import qobul from './../../public/assets/images/qobul.jpg'
+// import qobul from './../../public/assets/images/qobul.jpg'
 import download from './../../public/assets/svg/download.svg'
 const Talaba = () => {
     return (
@@ -26,10 +26,10 @@ const Talaba = () => {
             <Image className='w-8 ml-2' src={download} alt='icon' />
            </button>
     </div>
-    <Boss
+    {/* <Boss
      image={qobul}
       text={"Muxiddinov Qobiljon Akmal o'g'li Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish boʼlimi boshlig'i"}
-       />
+       /> */}
   </div>
     );
 }

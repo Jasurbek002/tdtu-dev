@@ -3,10 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { items3 } from '../../components/data/items';
 
-import Boss from '../../components/boss/boss';
+// import Boss from '../../components/boss/boss';
 
 import strel from './../../public/assets/images/strel.png'
-import adham from './../../public/assets/images/adhamjon.png'
+// import adham from './../../public/assets/images/adhamjon.png'
 import download from './../../public/assets/svg/download.svg'
 
 const Reyting = () => {
@@ -29,10 +29,10 @@ const Reyting = () => {
             <Image className='w-8 ml-2' src={download} alt='icon' />
            </button>
           </div>
-          <Boss
+          {/* <Boss
            image={adham}
             text={"Adham Mahkamov Rustamovich Islom Karimov nomidagi Toshkent davlat texnika universiteti Xalqaro reyting bo'limi boshlig'i"}
-             />
+             /> */}
         </div>
     );
 }

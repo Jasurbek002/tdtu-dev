@@ -1,4 +1,3 @@
-import { display } from '@mui/system';
 import React, { useContext } from 'react';
 import {AiOutlineClose} from 'react-icons/ai'
 import { context } from '../context/context';
@@ -11,7 +10,7 @@ const Bigmodal = () => {
             translate: modal ? '0%' : '100%',
             overflowY:'auto'
         }}
-        className='w-full flex duration-300 ease-in-out items-center justify-around bg-white absolute top-0'>
+        className='w-full border-l-2 border-oqroq flex duration-300 ease-in-out items-center justify-around bg-white absolute top-0'>
              <button 
             onClick={() => setModal(false)}
             className='absolute right-3 top-3 z-50'>

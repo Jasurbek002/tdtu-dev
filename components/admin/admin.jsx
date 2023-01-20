@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './../../styles/admin.module.scss'
 
 import logotip from './../../public/assets/svg/logo.svg'
@@ -12,9 +12,11 @@ import Slider from '../carusel/slider';
 import Newsadmin from '../news/newsadmin';
 import AdminPartner from './adminPartner';
 import AdminLoyha from './adminLoyha';
+import AdminEconomic from './adminEconomic';
+import AdminSpin from './adminSpin';
 
 const AdminBar = () => {
-
+const [btn,setBtn] = useState(1)
     return (
         <div className={styles.Admin}>
             <div className={styles.Admin__sitebar}>
@@ -45,7 +47,11 @@ const AdminBar = () => {
                <div className={styles.Admin__menu__category}>
                   {
                     category?.map((el) =>{
-                        return <button key={el.id} value={el.id}>
+                        return <button 
+                        onClick={(e) => setBtn(e.target.value)}
+                        key={el.id} 
+                        value={el.id}
+                        >
                                  {el.name}
                         </button>
                     })
@@ -53,10 +59,12 @@ const AdminBar = () => {
                </div>
                
                <div className={styles.Admin__menu__products}>
-               {/* <Slider /> */}
-               {/* <Newsadmin /> */}
-               {/* <AdminPartner /> */}
-               <AdminLoyha />
+            { btn ==1 ? <Slider /> : ''}
+               { btn == 2 ? <Newsadmin /> : ''}
+              {btn == 3 ? <AdminPartner /> : ''}
+              {btn == 4 ? <AdminLoyha /> : ''}
+               {btn == 5 ? <AdminEconomic /> : ''}
+               {btn == 7 ? <AdminSpin /> : ''}
                </div>
                
             </div>

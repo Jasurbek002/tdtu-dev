@@ -10,29 +10,36 @@ import Score from '../components/score/score'
 import styles from '../styles/Home.module.css'
 import HeroWidget from '../components/widjed/widjed'
 
+
+
 import { context } from '../components/context/context'
 import Search from '../components/search/search'
+import TostMessage from '../components/tost/tostMessage'
 
 export default function Home() {
 
-  const {loading,setLoading} = useContext(context)
+  const {loading,setLoading,setMessage} = useContext(context)
 
   useEffect(()=>{
     window.addEventListener('load',() =>{
       setLoading(true)
-    })
+      // setMessage({active:true,message:'success',status:200})
+    },[])
 
-    window.addEventListener('offline',()=>{
-      console.log('ok')
-    })
+    // window.removeEventListener('load',() =>{
+    //   setLoading(false)
+    // })
+
+    // window.addEventListener('offline',()=>{
+    //   console.log('ok')
+    // })
+    setTimeout(() =>{
+      setLoading(false)
+    },5000)
   },[])
   
+
   
-
-  setTimeout(() =>{
-    setLoading(false)
-  },5000)
-
   return (
     <div>
     <Head>
@@ -41,6 +48,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <TostMessage />
         <Loading state={loading}/>
         {/* <Search state={null} /> */}
         <div className={'flex w-full justify-center'}>

@@ -18,6 +18,7 @@ const Newsadmin = ({ }) => {
                 'overflowY': "auto",
                  height: '600px',
                  marginRight: modal ? '500px': '10px',
+                 overflowX:'hidden'
                 }}
             className='w-full flex items-center justify-evenly flex-wrap p-10 gap-5 relative'
         >

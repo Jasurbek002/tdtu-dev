@@ -1,5 +1,5 @@
 .Admin{
-    @apply flex w-full fixed top-0 left-0 bottom-0;
+    @apply flex w-full top-0 left-0 bottom-0 fixed;
     &__sitebar{
         @apply w-1/4 bg-white;
         &__logo{
@@ -25,9 +25,16 @@
         }
     }
     &__menu{
-        @apply w-3/4 ;
+        @apply w-3/4;
         &__nav{
-            @apply w-full bg-white h-20;
+            @apply flex items-center justify-around w-full bg-white h-20;
+            
+            input{
+                @apply w-96 h-10 outline-none border-b-2 border-grenn px-3 ;
+            }
+            p{
+                @apply text-grenn text-xl ;
+            }
         }
         &__category{
             @apply w-full flex items-center justify-evenly p-1 bg-white;
@@ -37,6 +44,10 @@
              @apply py-1 px-2 bg-white rounded-3xl border-2 border-grenn;
              @apply text-grenn hover:bg-kokroq;
             }
+        }
+        &__products{
+            width: 100%;
+            height:auto;
         }
     }
 }

@@ -21,10 +21,12 @@ module.exports = {
       white:'#FFFFFF',
       blue:'#3b82f6',
       grey:'#9333ea',
-      oqroq:'#f8fafc',
+      oqroq:'#CAC1C1',
       kokroq:'#f0f9ff',
       gradent: 'linear-gradient(0deg, rgba(209,76,76,0.40689779329700626) 10%, rgba(59,225,147,0.7710434515603116) 41%)',
-      grenn:"#1b6b50"
+      grenn:"#1b6b50",
+      yellow:"#FFD739",
+      red:"#E33E5A"
     },
   },
   plugins: [],

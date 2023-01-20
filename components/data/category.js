@@ -18,7 +18,15 @@ export const category = [
         name:'ilmiy-loyhalar'
     },
     {
-        id:1,
+        id:5,
         name:"Xo'jalik shartnomalar"
+    },
+    {
+       id:6,
+       name:'Forum'
+    },
+    {
+        id:7,
+        name:'spin-off'
     }
 ]

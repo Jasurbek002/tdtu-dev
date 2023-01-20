@@ -8,7 +8,10 @@ import userimg from './../../public/assets/svg/user.svg'
 import settingsimg from './../../public/assets/svg/mexanika.svg'
 
 import { category } from '../data/category';
-
+import Slider from '../carusel/slider';
+import Newsadmin from '../news/newsadmin';
+import AdminPartner from './adminPartner';
+import AdminLoyha from './adminLoyha';
 
 const AdminBar = () => {
 
@@ -36,17 +39,26 @@ const AdminBar = () => {
             </div>
             <div className={styles.Admin__menu}>
                <div className={styles.Admin__menu__nav}>
+                <input  type="text" placeholder='search...'/>
                 <p>SupperAdmin</p>
                </div>
                <div className={styles.Admin__menu__category}>
                   {
                     category?.map((el) =>{
-                        return <button key={el.id}>
+                        return <button key={el.id} value={el.id}>
                                  {el.name}
                         </button>
                     })
                   }
                </div>
+               
+               <div className={styles.Admin__menu__products}>
+               {/* <Slider /> */}
+               {/* <Newsadmin /> */}
+               {/* <AdminPartner /> */}
+               <AdminLoyha />
+               </div>
+               
             </div>
         </div>
     );

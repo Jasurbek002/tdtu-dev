@@ -31,7 +31,7 @@ const News = () => {
                         <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib
                             o'tdi unda universitetimiz talabalari faol qatnshdi
                         </p>
-                        <Button variant="outlined" className='bg-white ml-auto' >more</Button>
+                       
                     </div>
                     <div
                         data-aos="flip-left"
@@ -41,7 +41,7 @@ const News = () => {
                         <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib
                             o'tdi unda universitetimiz talabalari faol qatnshdi
                         </p>
-                        <Button variant="outlined" className='bg-white ml-auto ' >more</Button>
+                        
                     </div>
                     <div
                         data-aos="flip-left"
@@ -51,7 +51,7 @@ const News = () => {
                         <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib
                             o'tdi unda universitetimiz talabalari faol qatnshdi
                         </p>
-                        <Button variant="outlined" className='bg-white ml-auto ' >more</Button>
+                       
                     </div>
                     <div
                         data-aos="flip-left"
@@ -61,7 +61,7 @@ const News = () => {
                         <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib
                             o'tdi unda universitetimiz talabalari faol qatnshdi
                         </p>
-                        <Button variant="outlined" className='bg-white ml-auto ' >more</Button>
+                      
                     </div>
 
                 </div>

@@ -10,10 +10,10 @@ import 'swiper/css/thumbs';
 
 
 import image from '../../public/assets/images/univerimg.jpg'
-import image2 from '../../public/assets/images/slider2.png'
-import image3 from '../../public/assets/images/slider3.png'
-import image4 from '../../public/assets/images/slider4.png'
-import image5 from '../../public/assets/images/slider5.png'
+import image2 from '../../public/assets/images/fon2.jpg'
+import image3 from '../../public/assets/images/fon3.jpg'
+import image4 from '../../public/assets/images/univerimg.jpg'
+import image5 from '../../public/assets/images/fon4.jpg'
 
 
 import Image from 'next/image';

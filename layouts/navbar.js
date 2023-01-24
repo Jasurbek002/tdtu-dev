@@ -3,11 +3,11 @@ import styles from '../styles/navbar.module.scss'
 
 import {items1,items2,items3,items4,items5,items6} from '../components/data/items'
 
-const Navbar = ({url}) => {
+const Navbar = () => {
 
     return (
         <div 
-        style={{display: url ? 'none' : 'flex'}}
+        style={{display:'flex'}}
         className={styles.Navbar}>
               <ul className={styles.Navbar__nav}>
                 <li key={Math.random()}  className={styles.Navbar__nav__item}>

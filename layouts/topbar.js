@@ -5,11 +5,11 @@ import settings from './../public/assets/settings.module.scss'
 import logo from '../public/assets/images/LOGO.png'
 import searchicon from '../public/assets/svg/search.svg'
 
-const Topbar = ({url}) => {
+const Topbar = () => {
     return (
  
             <div
-            style={{display: url ? 'none' : 'flex'}}
+            style={{display:'flex'}}
             className={styles.Topbar}>
                 <Link className={styles.Topbar__logo} href='/'>
                     <Image className={styles.Topbar__logo__img} src={logo} alt='logotip image' />

@@ -8,13 +8,13 @@ import Link from 'next/link'
 import Aos from 'aos'
 import { useEffect } from 'react'
 
-const Footer = ({url}) => {
+const Footer = () => {
     useEffect(() =>{
         Aos.init()
-    })
+    },[])
     return (
         <div
-        style={{display: url ? 'none' : 'flex'}}
+        style={{display:'flex'}}
         data-aos="fade-down"
         data-aos-duration="1000"
         className={styles.Footer}>

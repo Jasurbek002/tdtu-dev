@@ -15,8 +15,8 @@ const Footer = ({url}) => {
     return (
         <div
         style={{display: url ? 'none' : 'flex'}}
-        data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos="fade-down"
+        data-aos-duration="1000"
         className={styles.Footer}>
 
            <ul className={styles.Footer__nav}>

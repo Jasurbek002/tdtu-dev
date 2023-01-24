@@ -20,15 +20,17 @@
             transition:all 0.5s ease-in-out;
             &:hover .Navbar__nav__item__menu{
               top: 30px;
-              transition:  1s ease-out;
+              transition:all 0.5s ease-out;
               display: flex;
+              opacity: 1;
+              scale: 1;
               
             }
             &__link{
                 color: rgb(255, 255, 255);
                 font-size: 20px;
                 font-weight: 400;
-                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-family:'Roboto-Bold' sans-serif ;
       
 
             }
@@ -37,13 +39,16 @@
                   background-color: white;
                   padding: 5px;
                   top: 80px;
-                  display:none;
+                  display:flex;
+                  opacity: 0;
+                  scale: 0;
                   flex-direction: column;
                   width: 200px;
                   transition:0.5s ease-in-out;
                 
                   &:hover{
                     display: flex;
+                    opacity: 1;
                      transition:all 0.5s ease-in-out;
                     
                   }

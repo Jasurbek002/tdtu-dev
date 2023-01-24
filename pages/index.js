@@ -23,16 +23,7 @@ export default function Home() {
   useEffect(()=>{
     window.addEventListener('load',() =>{
       setLoading(true)
-      // setMessage({active:true,message:'success',status:200})
-    },[])
-
-    // window.removeEventListener('load',() =>{
-    //   setLoading(false)
-    // })
-
-    // window.addEventListener('offline',()=>{
-    //   console.log('ok')
-    // })
+    })
     setTimeout(() =>{
       setLoading(false)
     },5000)
@@ -49,7 +40,7 @@ export default function Home() {
       </Head>
       <main>
         <TostMessage />
-        <Loading state={loading}/>
+        <Loading />
         {/* <Search state={null} /> */}
         <div className={'flex w-full justify-center'}>
         <Carusel  />

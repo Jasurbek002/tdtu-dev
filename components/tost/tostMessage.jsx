@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useEffect } from 'react';
 import { useContext } from 'react';
 import { toast } from 'react-toastify';
 import { context } from '../context/context';
@@ -6,6 +6,7 @@ const TostMessage = () => {
 
     const { message,setMessage } = useContext(context)
 
+   useEffect(() =>{
     if (message.active) {
 
         if (message.status === 200) {
@@ -21,6 +22,7 @@ const TostMessage = () => {
         }
 
     }
+   },[message.active])
 
 }
 

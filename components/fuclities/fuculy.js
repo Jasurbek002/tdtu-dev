@@ -36,9 +36,9 @@ useEffect(() =>{
          data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"> 
            <div className='flex w-full items-center justify-evenly my-20'>
-                <span className="w-96 h-1 bg-blue"></span>
-                <h1 className='text-grey text-2xl'>Fakultetlar</h1>
-                <span className="w-96 h-1 bg-blue"></span>
+                <span className="w-96 h-1 bg-grenn"></span>
+                <h1 className='text-grenn text-2xl'>Fakultetlar</h1>
+                <span className="w-96 h-1 bg-grenn"></span>
             </div>
          {
              fuculty.map((el,index) =>{
@@ -49,7 +49,7 @@ useEffect(() =>{
                 id="Link"
                  key={index}
                  className={
-                  'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-oqroq  h-24 bg-white relative'
+                  'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-kokroq  h-24 bg-white relative'
                   }>
                   <Image className={'w-7 h-7'} src={el.img} alt='icon' />
                    <p className={'text-grey'}>{el.name}</p>

@@ -14,7 +14,7 @@ const Doktarant = () => {
           {
             items1?.map((el,index) =>{
             if(typeof el ==='object'){
-                return <Link key={index} className='bg-white shadow-lg text-blue  hover:scale-105 w-full p-1 rounded-md m-2 flex items-center justify-between ' href='/'>
+                return <Link key={index} className='bg-white shadow-lg text-blue  hover:scale-105 w-full p-1 rounded-md m-2 flex items-center justify-between ' href={`${el.path}`}>
                 {el.id}. {el.name}
                  <Image className='w-8 h-8 rounded-full' src={strel} alt='icon'/>
              </Link>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import styles from './../styles/topbar.module.scss'
-
+import settings from './../public/assets/settings.module.scss'
 import logo from '../public/assets/images/LOGO.png'
 import searchicon from '../public/assets/svg/search.svg'
 

@@ -13,7 +13,7 @@ export let items1 = [
     {
         id:3,
         name:'Stajor tadqiqotchi',
-        path:'/doctarant/stajor'
+        path:'/doctarant/intern'
     },
     {
         id:3,
@@ -38,7 +38,7 @@ export let items2 = [
     },
     {
         id:3,
-        name:'Ilmiy labaratorya',
+        name:'Ilmiy loboratoria',
         path:'/tadqiqot/labaratoria/labaratorya',
         page:{
           id:1,
@@ -47,7 +47,7 @@ export let items2 = [
     },
     {
         id:4,
-        name:'Intelektual mulk obektlari',
+        name:'Intelektual mulk obyektlari',
         path:'/tadqiqot/mulk/mulk'
     },
 ]
@@ -156,6 +156,6 @@ export let items6 = [
     {
         id:5,
         name:"Konchilik mashinalari va texnologiyalari",
-        path:'/jurnal/konchilik',
+        path:'/jurnal/technologik',
     },
 ]

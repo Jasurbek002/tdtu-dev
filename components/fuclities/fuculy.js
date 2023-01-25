@@ -35,10 +35,8 @@ useEffect(() =>{
         data-aos="flip-left"
          data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"> 
-           <div className='flex w-full items-center justify-evenly my-20'>
-                <span className="w-96 h-1 bg-grenn"></span>
-                <h1 className='text-grenn text-2xl'>Fakultetlar</h1>
-                <span className="w-96 h-1 bg-grenn"></span>
+           <div className='flex w-11/12 items-center justify-start my-20 border-b-2 border-grenn'>
+                <h1 className='text-oqroq text-2xl ml-5  '>Fakultetlar</h1>
             </div>
          {
              fuculty.map((el,index) =>{

@@ -23,6 +23,7 @@ module.exports = {
       grey:'#9333ea',
       oqroq:'#CAC1C1',
       kokroq:'#f0f9ff',
+      lightblack:"#ebe6e6",
       gradent: 'linear-gradient(0deg, rgba(209,76,76,0.40689779329700626) 10%, rgba(59,225,147,0.7710434515603116) 41%)',
       grenn:"#1b6b50",
       yellow:"#FFD739",

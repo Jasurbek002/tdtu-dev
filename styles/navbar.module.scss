@@ -18,6 +18,8 @@
             position: relative;
             height: auto;
             transition:all 0.5s ease-in-out;
+            
+            // border-left: 2px solid white;
             &:hover .Navbar__nav__item__menu{
               top: 30px;
               transition:all 0.5s ease-out;
@@ -27,12 +29,32 @@
               
             }
             &__link{
+              height: 15px;
                 color: rgb(255, 255, 255);
                 font-size: 20px;
                 font-weight: 400;
                 font-family:'Roboto-Bold' sans-serif ;
-      
-
+                border-bottom: 2px solid white;
+                transition: 0.5s all ease-in-out;
+                border-left: 2px solid rgba(255, 255, 255, 0.395);
+                border-right: 2px solid rgba(255, 255, 255, 0.458);
+                padding: 0 10px;
+               
+            }
+            &__unlink{
+              border-bottom: 2px solid #1b6b50;
+              font-size: 20px;
+              font-weight: 400;
+              font-family:'Roboto-Bold' sans-serif ;
+              color:white;
+              padding: 0 10px;
+              border-left: 2px solid rgba(255, 255, 255, 0.386);
+              border-right: 2px solid rgba(255, 255, 255, 0.307);
+              &:hover{
+                transition: 1s all ease-in-out;
+                border-bottom: 2px solid white;
+                border-width: 100%;
+              }
             }
             &__menu{
                   position: absolute;

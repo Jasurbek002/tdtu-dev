@@ -32,3 +32,17 @@
 .container::-webkit-scrollbar {
     display: none;
   }
+
+
+  .bg{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+    background-image: url('./images/bgnews.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

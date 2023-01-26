@@ -49,7 +49,7 @@ export default function Home() {
         <Fuculy />
         <Score fakul={300} students ={25000} teachers={990} forwork={50}  />
         <Partner />
-        <HeroWidget />
+        {/* <HeroWidget /> */}
       </main>
     </div>
   )

@@ -38,9 +38,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-
-
-  @apply bg-kokroq
+background-color: transparent;
+  /* @apply bg-kokroq; */
 }
 
 a {

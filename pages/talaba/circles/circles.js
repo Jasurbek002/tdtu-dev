@@ -71,7 +71,7 @@ const Circles = () => {
 
     
        
-         <p className='text-grenn text-xl top-0 w-10/12 p-5 bg-white shadow-3xl border-2 border-grenn'>
+         <p className='text-grenn text-xl top-0 w-10/12 p-5 bg-white shadow-3xl'>
            TITning asosiy maqsadi talabalarning ilmiy-tadqiqot ishlarini 
 rivojlantirishga yordam berish, nazariy va amaliy bilim darajasini oshirish, talabalar 
 ilmiy to‘garagi doirasida innovatsion jarayonlarda ishtirok etish va boshqarish 

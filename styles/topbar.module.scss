@@ -6,43 +6,75 @@
     padding: 10px 0px;
     background-color: white;
     &__logo{
-        width: 100px;
-        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
            &__img{
            width: 100px;
            height: 100px;
-           }
+           } 
+           &__title{
+            margin-left: 10px;
+            width: 400px;
+            color:#1b6b50;
+            font-size: 30px;
+            font-weight: 900;
+            font-family:'Roboto-Bold',sans-serif;
+        }
+
     }
-    &__title{
-        max-width: 800px ;
-        width: 100%;
-        color:#1b6b50;
-        font-size: 30px;
-        font-weight: 900;
-        font-family:'Roboto-Bold',sans-serif;
-    }
+   &__name{
+    color:#1b6b50;
+    font-size: 70px;
+    font-weight: 900;
+    font-family:'Roboto-Bold',sans-serif;
+    margin-right: 200px;
+   }
     &__btngroup{
         display: flex;
         align-items: center;
+        flex-direction: column;
         padding: 5px;
-        background-color: #1b6b50;
         border-radius: 10px;
-        max-width: 200px;
+        max-width: 150px;
         justify-content: space-between;
         width: 200px;
         &__lang{
             background-color: transparent;
-            width: 50px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
             height: 40px;
             color:#1b6b50;
             font-size: 25px;
             border: none;
             outline: none;
-            color: white;
+            border: 2px solid rgb(217, 214, 214);
+            border-radius: 20px;
+            color: rgb(39, 38, 38);
             cursor: pointer;
-            &:optional{
-                background-color: #1b6b50;
+            .span{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-color: rgb(43, 43, 44);
+                border-radius: 50%;
+                padding: 5px;
+                
             }
+        }
+        &__btn{
+            margin-top: 5px;
+            border: 2px solid rgb(217, 214, 214);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: rgb(80, 160, 226);
+            background-color: white;
+            padding: 4px;
+            border-radius: 20px;
+            // @apply w-full h-30 flex items-center justify-around text-blue bg-white rounded-md cursor-pointer p-1;
         }
     }
     

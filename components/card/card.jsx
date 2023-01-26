@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({}) => {
     return (
-        <div className='w-full w-11/12 flex justify-around border-2 border-blue items-center p-4 my-4 shadow-4xl rounded-md'>
+        <div className='w-full w-11/12 flex justify-around border-2 border-blue items-center p-4 my-4 shadow-4xl rounded-md bg-kokroq'>
             <p className='w-2/3'>
                Mavzu: Ф-ОТ-2021-497 "Фотоэлектрик иссиқлик батареялари асосидаги
                  қуёш когенератсион қурилмаларини яратишнинг

@@ -19,9 +19,9 @@ const News = () => {
 
             <div
                 style={{
-                    backgroundImage: `url('${images.news.src}')`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
+                    // backgroundImage: `url('${images.news.src}')`,
+                    // backgroundRepeat: 'no-repeat',
+                    // backgroundSize: 'cover',
                     height: '500px'
 
                 }}

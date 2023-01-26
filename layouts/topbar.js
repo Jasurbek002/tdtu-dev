@@ -13,23 +13,28 @@ const Topbar = () => {
             className={styles.Topbar}>
                 <Link className={styles.Topbar__logo} href='/'>
                     <Image className={styles.Topbar__logo__img} src={logo} alt='logotip image' />
-                </Link>
-                <h2 className={styles.Topbar__title}>
-                    Islom Karimov nomidagi toshkent davlat texnika universitetining
-                    Ilmiy bo'limi
+                    <h2 className={styles.Topbar__logo__title}>
+                     TOSHKENT DAVLAT TEXNIKA UNIVERSITETI
                 </h2>
+                </Link>
+                   <h1 className={styles.Topbar__name}>
+                    ILMIY BO'LIM
+                   </h1>
                <div className={styles.Topbar__btngroup}>
-               <buttom className='w-35 h-35'>
+
+               <div className={styles.Topbar__btngroup__lang}>
+                  <div className={styles.Topbar__lang__span}>uz</div>
+                  <div className={styles.Topbar__lang__span}>en</div>
+               </div>
+
+                <buttom className={styles.Topbar__btngroup__btn}>
+                    Search
                     <Image
-                     style={{width:'35px',cursor:'pointer'}}
+                     style={{width:'30px',cursor:'pointer'}}
                       src={searchicon}
                        alt='search icon'/>
                 </buttom>
-                <select defaultValue='uz' name='lang' className={styles.Topbar__btngroup__lang}>
-                    <option value='en'>en</option>
-                    <option value='ru'>ru</option>
-                    <option value='uz'>uz</option>
-                </select>
+
                </div>
                
             </div>

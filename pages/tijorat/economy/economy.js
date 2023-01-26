@@ -3,7 +3,7 @@ import React from 'react';
 const Economy = () => {
     return (
         <div className='w-full flex flex-col items-center'>
-            <div className='w-full w-11/12 flex justify-around border-2 border-blue items-center p-4 my-4 shadow-4xl rounded-md'>
+            <div className='w-full w-11/12 flex justify-around border-2 border-blue items-center p-4 my-4 shadow-4xl rounded-md bg-white'>
                 <p className='w-2/3'>
                   <span className='text-xl text-blue'>
                   Loyha nomi:
@@ -16,7 +16,7 @@ const Economy = () => {
                 </p>
                
             </div>
-            <div className='w-full w-11/12 flex justify-around border-2 border-blue items-center p-4 my-4 shadow-4xl rounded-md'>
+            <div className='w-full w-11/12 flex justify-around border-2 border-blue items-center p-4 my-4 shadow-4xl rounded-md bg-white'>
                 <p className='w-2/3'>
                     <span className='text-xl text-blue' >
                         Loyha nomi:

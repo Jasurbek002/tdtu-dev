@@ -39,6 +39,11 @@ const Reyting = () => {
            wurvern1={"Bosh mutaxasis"}
            wtel1={"+998 90 433 77 63"}
            wgmail1={"urajapbaev@gmail.com"}
+           wimg2={images.shagzod}
+           wname2={"Rashidov Shohzodbek Abduvahobovich"}
+           wurvern2={"Bosh mutaxasis"}
+           wtel2={"+998971072692"}
+           wgmail2={"shoh.rashidov2103@gmail.com"}
              />
 
              <div className='w-2/4 p-5  shadow-2xl'>

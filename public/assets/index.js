@@ -5,6 +5,7 @@ import stipendiya from './images/stipendiya.jpg'
 import tezkor from './images/tezkor.jpg'
 import umid from './images/umid.jpg'
 import shagzod from './images/shagzod.jpg'
+import scorefon from './images/score.jpg'
 export const images = {
     news:bgnews,
     slide:slide,
@@ -12,5 +13,6 @@ export const images = {
     tezkor:tezkor,
     stipendiya:stipendiya,
     umid:umid,
-    shagzod:shagzod
+    shagzod:shagzod,
+    score:scorefon
 }

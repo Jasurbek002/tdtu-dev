@@ -27,8 +27,8 @@ const Partner = () => {
         <div className='w-full flex flex-wrap items-center justify-evenly py-5  '>
              <div
              data-aos="fade-right"
-             className='flex w-full items-center justify-start my-5 '>
-                <h1 className='text-grenn text-2xl ml-10 uppercase font-mono font-bold border-b-2 border-white'>Hamkorlar</h1>
+             className='flex w-full items-center justify-start my-5 bg'>
+                <h1 className='text-white text-2xl ml-10 uppercase font-mono font-bold '>Hamkorlar</h1>
                 </div>
             <Swiper
                data-aos="zoom-in-up"

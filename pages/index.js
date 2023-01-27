@@ -24,10 +24,11 @@ export default function Home() {
     window.addEventListener('load',() =>{
       setLoading(true)
     })
+
     setTimeout(() =>{
       setLoading(false)
     },5000)
-  },[])
+  },[loading])
   
 
   

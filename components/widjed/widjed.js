@@ -32,9 +32,12 @@ function HeroWidget() {
 
 
     return (
-        <>
+        <div className='relative'>
+            <div className='w-full h-full absolute z-50'>
+
+            </div>
             <div
-        //    data-aos="flip-up"
+       
              data-aos-duration="2000"
             id="myContainer">
                 <div className="tradingview-widget-container">
@@ -44,7 +47,7 @@ function HeroWidget() {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

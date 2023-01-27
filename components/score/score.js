@@ -6,18 +6,21 @@ import partner from '../../public/assets/images/partner.svg';
 
 import Aos from "aos";
 import { useEffect } from "react";
-
+import { images } from "../../public/assets/index";
 
 
 
 const Score = ({fakul,students,teachers,forwork}) => {
     useEffect(() =>{
         Aos.init()
-    })
+    },[])
+
     return (
         <div
         data-aos="flip-down"
         style={{
+            backgroundImage:`url('${images.score.src}')`,
+            backgroundSize:'100% 100%',
             minHeight:'500px',
             backdropFilter: 'blur(10px)'
         }}
@@ -29,7 +32,7 @@ const Score = ({fakul,students,teachers,forwork}) => {
                 // backdropFilter: 'blur(10px)'
                 backgroundColor:'rgba(0, 0, 0, 0.502)'
             }}
-            className="flex w-11/12   mt-12 items-center justify-evenly flex-wrap relative p-20 rounded-xl z-0">
+            className="flex w-11/12    items-center justify-evenly flex-wrap relative p-20 rounded-xl z-0 border-4 border-white">
         {/* <h2 className='absolute top-10 text-xl text-grey w-full text-center bg-kokroq'>Ko'rsatgichlar</h2> */}
             
         <div 

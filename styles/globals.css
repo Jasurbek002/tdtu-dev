@@ -6,7 +6,7 @@
   width: 150px;
   height: 200px;
   justify-content: center;
-  background-color:transparent;
+  background-color: transparent;
   border: 1px solid white;
 }
 .spin:hover .info{

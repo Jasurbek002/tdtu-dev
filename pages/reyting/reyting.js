@@ -13,12 +13,12 @@ import { images } from '../../public/assets';
 const Reyting = () => {
     return (
         <div className='flex flex-wrap w-full my-10 justify-around'>
-            <h2 className='text-3xl w-full text-center  ml-10 uppercase text-grenn'>{items3[0]}</h2>
+            <h2 className='text-3xl w-full text-center  ml-10 uppercase font-bold text-grenn'>{items3[0]}</h2>
           <div className='w-full flex justify-evenly items-center my-5'>
           {
             items3?.map((el,index) =>{
             if(typeof el ==='object'){
-                return <Link key={index} className='bg-white shadow-lg text-blue transforum ease-out duration-500 hover:scale-105 w-40 p-1 rounded-md m-2 flex items-center justify-between ' href='/'>
+                return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105 w-40 p-1 rounded-md m-2 flex items-center justify-between ' href='/'>
                 {el.id}. {el.name}
                  <Image className='w-8 h-8 rounded-full' src={strel} alt='icon'/>
              </Link>
@@ -48,35 +48,37 @@ const Reyting = () => {
 
              <div className='w-2/4 p-5  shadow-2xl'>
                 <p className='text-xl font-bold text-grenn'>
-                Тошкент давлат техника универстети 
-                Халқаро рейтинг бўлими қуйидаги вазифаларни бажаради:
+                Toshkent davlat texnika universteti Xalqaro reyting bo‘limi
+                 quyidagi vazifalarni bajaradi: 
                 </p>
                 <li>
-                рейтинг кўрсаткичларига таъсир этувчи параметрларни доимий назорат
-                 қилиш ва уларнинг ҳолати бўйича университет раҳбариятини огохлантириб бориш;
+                reyting ko‘rsatkichlariga ta’sir etuvchi parametrlarni doimiy nazorat
+                 qilish va ularning holati bo‘yicha universitet rahbariyatini ogoxlantirib borish; 
                 </li>
                 <li>
-                факультетлар ва кафедралар кесимида университетнинг халқаро рейтинга қўшаётган
-                 ҳиссаси кўрсаткичларини аниқлаб бориш;
+                fakultetlar va kafedralar kesimida universitetning xalqaro reytinga qo‘shayotgan 
+                hissasi ko‘rsatkichlarini aniqlab borish; 
                 </li>
                 <li>
-                доимий равишда кафедралар, бўлимларнинг ходимларини халқаро рейтинг тизими талаблари билан таништириб бориш ҳамда семинарлар
-                 ташкил этиш; университетда фаолият юритаётган профессор-ўқитувчилар сонини ҳисоблаш учун статистика ҳисоботларини тайёрлаш;
+                doimiy ravishda kafedralar, bo‘limlarning xodimlarini xalqaro reyting tizimi talablari 
+                bilan tanishtirib borish hamda seminarlar tashkil etish; universitetda faoliyat yuritayotgan
+                 professor-o‘qituvchilar sonini hisoblash uchun statistika hisobotlarini tayyorlash; 
                 </li>
                 <li>
-                хорижий профессор-ўқитувчилар сонини ҳисоблаш учун статистика ҳисоботларини тайёрлаш;
+                xorijiy professor-o‘qituvchilar sonini hisoblash uchun
+                 statistika hisobotlarini tayyorlash; 
                 </li>
                 <li>
-                	университетда фаолият юритаётган фан доктори, фан номзоди ҳамда PhD даражасига эга бўлган 
-                    профессор-ўқитувчилар сонини ҳисоблаш учун статистика ҳисоботларини тайёрлаш;
+                universitetda faoliyat yuritayotgan fan doktori, fan nomzodi hamda PhD darajasiga ega bo‘lgan 
+                professor-o‘qituvchilar sonini hisoblash uchun statistika hisobotlarini tayyorlash; 
                 </li>
                 <li>
-                университетда таҳсил олаётган маҳаллий ва хорижий бакалавриатура талабалари сонини ҳисоблаш 
-                учун статистика ҳисоботларини тайёрлаш; университетда таҳсил олаётган 
+                universitetda tahsil olayotgan mahalliy va xorijiy bakalavriatura talabalari sonini hisoblash
+                 uchun statistika hisobotlarini tayyorlash; universitetda tahsil olayotgan 
                 </li>
                 <li>
-                ушбу соҳада амалга оширилаётган фаолиятларнинг натижаларини
-                 университет веб-сайти ва университетнинг ижтимоий тармокларида акс эттириб бориш.
+                ushbu sohada amalga oshirilayotgan faoliyatlarning natijalarini universitet veb-sayti va 
+                universitetning ijtimoiy tarmoklarida aks ettirib borish.
                 </li>
                 <button className='ml-1 py-5 px-10 shadow-lg bg-white mt-5 flex items-center border-2 border-grenn text-grenn hover:border-blue'>
             Bo'lim nizomi

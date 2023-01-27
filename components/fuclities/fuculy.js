@@ -18,7 +18,7 @@ import { useEffect } from "react";
 const Fuculy = () => {
 useEffect(() =>{
   Aos.init()
-})
+},[])
   const fuculty = [
     {id:1,name:'Mexanika fakulteti',img:mexanika},
     {id:2,name:'Elelktr energetika fakulteti',img:energetc},
@@ -35,8 +35,8 @@ useEffect(() =>{
         data-aos="flip-left"
          data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"> 
-           <div className='flex w-11/12 items-center justify-start my-20 border-b-2 border-white'>
-                <h1 className='text-grenn text-2xl ml-5 uppercase font-mono font-bold'>Fakultetlar</h1>
+           <div className='flex w-11/12 items-center justify-start my-20 border-b-2 bg border-white'>
+                <h1 className='text-white text-2xl ml-5 uppercase font-mono font-bold'>Fakultetlar</h1>
             </div>
          {
              fuculty.map((el,index) =>{

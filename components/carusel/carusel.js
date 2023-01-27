@@ -14,10 +14,7 @@ import 'swiper/css/keyboard'
 
 
 import image from '../../public/assets/images/univerimg.jpg'
-import image2 from '../../public/assets/images/fon2.jpg'
-import image3 from '../../public/assets/images/fon3.jpg'
-import image4 from '../../public/assets/images/univerimg.jpg'
-import image5 from '../../public/assets/images/fon4.jpg'
+import { images } from '../../public/assets/index';
 
 
 import Image from 'next/image';
@@ -30,7 +27,13 @@ function Carusel() {
 
 
   return (
-    <div className={styles.Carusel}>
+    <div 
+    style={{
+      backgroundImage:`url('${image.src}')`,
+      width:'100%',
+      height:'500px'
+    }}
+    className={styles.Carusel}>
 
 
       <Swiper
@@ -46,7 +49,6 @@ function Carusel() {
         pagination={{
           clickable: true,
         }}
-        // effect={"fade"}
         cssMode={true}
         navigation={true}
         grabCursor={true}
@@ -66,7 +68,6 @@ function Carusel() {
         <SwiperSlide>
           <div 
           style={{
-            backgroundImage:`url('${image.src}')`,
             width:'100%',
             height:'500px'
           }}
@@ -80,90 +81,32 @@ function Carusel() {
                       universiteti va Belarus universiteti o'rtasida turli xil kelishuvlar
                       imzolandi
                  </p>
+            </div>
+            <div className={styles.Carusel__banner__media}>
+                <Image className={styles.Carusel__banner__media__img} src={images.slide} alt='img' />
             </div>
           </div>
           </SwiperSlide>
           <SwiperSlide>
           <div 
           style={{
-            backgroundImage:`url('${image2.src}')`,
             width:'100%',
             height:'500px'
           }}
           className={styles.Carusel__banner}>
             <div className={styles.Carusel__banner__card}>
                  <h1 className={styles.Carusel__banner__card__title}>
-                      Bugun Xalqaro hamkorlar bilan uchrashuv bo'lib o'tdi
+                 O‘zbekiston Respublikasi Prezidenti va nomli davlat stipendiyalari sovrindorlari
                  </h1>
                  <p className={styles.Carusel__banner__card__text}>
-                      Ushbu uchrashuvda Islom Karimov nomidagi toshkent davlat texnika
-                      universiteti va Belarus universiteti o'rtasida turli xil kelishuvlar
-                      imzolandi
+                 Islom Karimov nomidagi Toshkent davlat texnika universitetining O‘zbekiston Respublikasi Prezidenti va nomli davlat stipendiyalari sovrindorlari
                  </p>
+            </div>
+            <div className={styles.Carusel__banner__media}>
+                <Image className={styles.Carusel__banner__media__img} src={images.stipendiya} alt='img' />
             </div>
           </div>
           </SwiperSlide>
-          <SwiperSlide>
-          <div 
-          style={{
-            backgroundImage:`url('${image3.src}')`,
-            width:'100%',
-            height:'500px'
-          }}
-          className={styles.Carusel__banner}>
-            <div className={styles.Carusel__banner__card}>
-                 <h1 className={styles.Carusel__banner__card__title}>
-                      Bugun Xalqaro hamkorlar bilan uchrashuv bo'lib o'tdi
-                 </h1>
-                 <p className={styles.Carusel__banner__card__text}>
-                      Ushbu uchrashuvda Islom Karimov nomidagi toshkent davlat texnika
-                      universiteti va Belarus universiteti o'rtasida turli xil kelishuvlar
-                      imzolandi
-                 </p>
-            </div>
-          </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div 
-          style={{
-            backgroundImage:`url('${image4.src}')`,
-            width:'100%',
-            height:'500px'
-          }}
-          className={styles.Carusel__banner}>
-            <div className={styles.Carusel__banner__card}>
-                 <h1 className={styles.Carusel__banner__card__title}>
-                      Bugun Xalqaro hamkorlar bilan uchrashuv bo'lib o'tdi
-                 </h1>
-                 <p className={styles.Carusel__banner__card__text}>
-                      Ushbu uchrashuvda Islom Karimov nomidagi toshkent davlat texnika
-                      universiteti va Belarus universiteti o'rtasida turli xil kelishuvlar
-                      imzolandi
-                 </p>
-            </div>
-          </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div 
-          style={{
-            backgroundImage:`url('${image5.src}')`,
-            width:'100%',
-            height:'500px'
-          }}
-          className={styles.Carusel__banner}>
-            <div className={styles.Carusel__banner__card}>
-                 <h1 className={styles.Carusel__banner__card__title}>
-                      Bugun Xalqaro hamkorlar bilan uchrashuv bo'lib o'tdi
-                 </h1>
-                 <p className={styles.Carusel__banner__card__text}>
-                      Ushbu uchrashuvda Islom Karimov nomidagi toshkent davlat texnika
-                      universiteti va Belarus universiteti o'rtasida turli xil kelishuvlar
-                      imzolandi
-                 </p>
-            </div>
-          </div>
-          </SwiperSlide>
-    
       </Swiper>
      
     </div>

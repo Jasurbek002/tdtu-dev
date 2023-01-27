@@ -28,7 +28,7 @@ const Partner = () => {
              <div
              data-aos="fade-right"
              className='flex w-full items-center justify-start my-5 '>
-                <h1 className='text-oqroq text-2xl ml-10'>Hamkorlar</h1>
+                <h1 className='text-grenn text-2xl ml-10 uppercase font-mono font-bold border-b-2 border-white'>Hamkorlar</h1>
                 </div>
             <Swiper
                data-aos="zoom-in-up"

@@ -19,15 +19,13 @@ const News = () => {
 
             <div
                 style={{
-                    // backgroundImage: `url('${images.news.src}')`,
-                    // backgroundRepeat: 'no-repeat',
-                    // backgroundSize: 'cover',
+                   
                     height: '500px'
 
                 }}
-                className='w-full flex items-center justify-evenly p-5 flex-wrap border-t-2 border-grenn'>
+                className={styles.newscontiner}>
                 <div className='flex w-full items-center justify-start mb-5 '>
-                    <h1 className='text-grenn text-2xl w-40 ml-5'>So'ngi e'lonlar</h1>
+                    <h1 className='text-grenn text-2xl font-mono font-bold ml-5 uppercase'>So'ngi e'lonlar</h1>
                 </div>
 
                 {/* <div
@@ -46,43 +44,72 @@ const News = () => {
                     </div> */}
 
                 <div className={styles.news}>
-                    <h2 className='text-xl text-white w-full h-20 bg-grenn'>
-                        So'ngi yangiliklar
-                    </h2>
-                    <p className='text-md text-grenn text-start '>
-                        bu universitetimizda rektoz bilan uchrashuv bo'lib
-                        o'tdi unda universitetimiz talabalari faol qatnshdi
+                    <Image src={images.xashar} alt="icon" />
+                    <div className={styles.news__info}>
+                    <h2 className='text-xl text-oqroq w-full my-4'>
+                       Universitetimizda hashar
+                    </h2>   
+                    <p className='text-md text-oqroq text-center w-11/12 '>
+                    Toshkent davlat texnika universitetida 2023-yilning 13-14-yanvar 
+                    kunlari barcha fakultetlarda
                     </p>
-                </div>
-                <div className={styles.news}>
-                    <h2 className='text-xl text-white w-full h-20 bg-grenn'>
-                        So'ngi yangiliklar
-                    </h2>
-                    <p className='text-md text-grenn text-start '>
-                        bu universitetimizda rektoz bilan uchrashuv bo'lib
-                        o'tdi unda universitetimiz talabalari faol qatnshdi
-                    </p>
-                </div>
-                <div className={styles.news}>
-                    <h2 className='text-xl text-white w-full h-20 bg-grenn'>
-                        So'ngi yangiliklar
-                    </h2>
-                    <p className='text-md text-grenn text-start '>
-                        bu universitetimizda rektoz bilan uchrashuv bo'lib
-                        o'tdi unda universitetimiz talabalari faol qatnshdi
-                    </p>
-                </div>
-                <div className={styles.news}>
-                    <h2 className='text-xl text-white w-full h-20 bg-grenn'>
-                        So'ngi yangiliklar
-                    </h2>
-                    <p className='text-md text-grenn text-start '>
-                        bu universitetimizda rektoz bilan uchrashuv bo'lib
-                        o'tdi unda universitetimiz talabalari faol qatnshdi
-                    </p>
+                    <button 
+                    className='w-24 h-8 border-2 border-grenn text-grenn ml-auto mt-auto mb-1 hover:bg-grenn hover:text-white transform ease-in-out duration-500'>
+                        Batafsil
+                    </button>
+                    </div>  
                 </div>
 
+                <div className={styles.news}>
+                    <Image src={images.tezkor} alt="icon" />
+                    <div className={styles.news__info}>
+                    <h2 className='text-xl text-oqroq w-full my-4'>
+                        #Tezkor
+                    </h2>   
+                    <p className='text-md text-oqroq text-center w-11/12 '>
+                    O‘qish 23-yanvardan an’anaviy tarzda boshlanadi
+                    </p>
+                    <button 
+                    className='w-24 h-8 border-2 border-grenn text-grenn ml-auto mt-auto mb-1 hover:bg-grenn hover:text-white transform ease-in-out duration-500'>
+                        Batafsil
+                    </button>
+                    </div>
+                </div>
 
+                <div className={styles.news}>
+                    <Image src={images.stipendiya} alt="icon" />
+                    <div className={styles.news__info}>
+                    <h2 className='text-xl text-oqroq w-full my-4'>
+                        stipendiyalari sovrundorlari
+                    </h2>   
+                    <p className='text-md text-oqroq text-center w-11/12 '>
+                    Islom Karimov nomidagi Toshkent davlat texnika universitetining O‘zbekiston 
+                    Respublikasi Prezidenti 
+                    </p>
+                    <button 
+                    className='w-24 h-8 border-2 border-grenn text-grenn ml-auto mt-auto mb-1 hover:bg-grenn hover:text-white transform ease-in-out duration-500'>
+                        Batafsil
+                    </button>
+                    </div>
+                </div>
+
+                <div className={styles.news}>
+                    <Image src={images.slide} alt="icon" />
+                   <div className={styles.news__info}>
+                   <h2 className='text-xl text-oqroq w-full my-4'>
+                        Yoshlar ittifoqi kengashi
+                    </h2>   
+                    <p className='text-md text-oqroq text-center w-11/12 '>
+                    Barcha loyihalar g'oliblari universitet rahbariyatining 
+                    diplomlari hamda estalik sovg'alari bilan taqdirlandi.
+                    </p>
+                    <button 
+                    className='w-24 h-8 border-2 border-grenn text-grenn ml-auto mt-auto mb-1 hover:bg-grenn hover:text-white transform ease-in-out duration-500'>
+                        Batafsil
+                    </button>
+                   </div>
+                </div>
+               
             </div>
 
         </>

@@ -24,14 +24,13 @@
 }
 
 
-.box{
+/* .box{
   margin: 100px auto;
   background-image: url('./../public/assets/images/fon4.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 100px 0;
-}
-
+} */
 
 
 html,
@@ -40,6 +39,9 @@ body {
   margin: 0;
 background-color: transparent;
   /* @apply bg-kokroq; */
+
+  
+  
 }
 
 a {

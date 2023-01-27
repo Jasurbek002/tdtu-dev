@@ -23,7 +23,15 @@ const Topbar = () => {
                <div className={styles.Topbar__btngroup}>
 
                <div className={styles.Topbar__btngroup__lang}>
-                  <div className={styles.Topbar__lang__span}>uz</div>
+                  <div 
+                  style={{
+                    color:'green',
+                    fontWeight:'bold'
+                  }}
+                  className={styles.Topbar__lang__span}>uz</div>
+                  <span>
+
+                  </span>
                   <div className={styles.Topbar__lang__span}>en</div>
                </div>
 

@@ -43,24 +43,28 @@
             background-color: transparent;
             display: flex;
             justify-content: space-around;
+            align-items: center;
             width: 100%;
             height: 40px;
-            color:#1b6b50;
             font-size: 25px;
-            border: none;
-            outline: none;
             border: 2px solid rgb(217, 214, 214);
             border-radius: 20px;
             color: rgb(39, 38, 38);
             cursor: pointer;
-            .span{
-                display: inline-block;
-                width: 20px;
-                height: 20px;
+            &__span{
+                display:flex; 
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
                 background-color: rgb(43, 43, 44);
                 border-radius: 50%;
                 padding: 5px;
                 
+            }
+            span{
+                @apply h-full bg-oqroq;
+                width: 2px;
             }
         }
         &__btn{
@@ -74,6 +78,11 @@
             background-color: white;
             padding: 4px;
             border-radius: 20px;
+            &:hover{
+                background-color: #1b6b50;
+                color: white;
+                transition: all .5s ease-in-out;
+            }
             // @apply w-full h-30 flex items-center justify-around text-blue bg-white rounded-md cursor-pointer p-1;
         }
     }

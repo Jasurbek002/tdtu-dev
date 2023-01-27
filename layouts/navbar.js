@@ -19,6 +19,20 @@ const router = useRouter()
                          href='/' >Bosh sahifa</Link>
                 </li>
                 <li className={styles.Navbar__nav__item}>
+                    <Link
+                      className={
+                        router.pathname == '/reyting/reyting' ?  styles.Navbar__nav__item__link : styles.Navbar__nav__item__unlink } 
+                     href='/reyting/reyting' > Reyting </Link>
+                    <div className={styles.Navbar__nav__item__menu}>
+                     <p key={Math.random()}>{items3[0]}</p>
+                    {
+                        items3?.map((el,index)=>{
+                            return <Link key={index} className={styles.Navbar__nav__item__menu__links}   href={`${el.path}`} >{el.name}</Link>
+                        })
+                    }
+                    </div>
+                </li>
+                <li className={styles.Navbar__nav__item}>
                     <Link 
                     className={
                         router.pathname == '/doctarant/doktarant' ?  styles.Navbar__nav__item__link : styles.Navbar__nav__item__unlink }
@@ -48,20 +62,7 @@ const router = useRouter()
                     }
                     </div>
                 </li>
-                <li className={styles.Navbar__nav__item}>
-                    <Link
-                      className={
-                        router.pathname == '/reyting/reyting' ?  styles.Navbar__nav__item__link : styles.Navbar__nav__item__unlink } 
-                     href='/reyting/reyting' > Reyting </Link>
-                    <div className={styles.Navbar__nav__item__menu}>
-                     <p key={Math.random()}>{items3[0]}</p>
-                    {
-                        items3?.map((el,index)=>{
-                            return <Link key={index} className={styles.Navbar__nav__item__menu__links}   href={`${el.path}`} >{el.name}</Link>
-                        })
-                    }
-                    </div>
-                </li>
+                
                 <li className={styles.Navbar__nav__item}>
                     <Link
                      className={

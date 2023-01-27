@@ -24,9 +24,9 @@ useEffect(() =>{
     {id:2,name:'Elelktr energetika fakulteti',img:energetc},
     {id:3,name:'Mashinasozlik fakulteti',img:mashina},
     {id:4,name:'Muhandislik texnologiyalari fakulteti',img:muxandis},
-    {id:5,name:'Elektronika va avtomatika fakulteti',img:asu},
+    {id:5,name:'Neft va gaz fakulteti',img:neft},
     {id:6,name:'Geologiya-qidiruv va kon-mettalurgiya  fakulteti',img:geolog},
-    {id:7,name:'Neft va gaz fakulteti',img:neft},
+    {id:7,name:'Elektronika va avtomatika fakulteti',img:asu},
     {id:8,name:'Issiqlik energetikasi fakulteti',img:issq}
   ]
 
@@ -35,8 +35,8 @@ useEffect(() =>{
         data-aos="flip-left"
          data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"> 
-           <div className='flex w-11/12 items-center justify-start my-20 border-b-2 border-grenn'>
-                <h1 className='text-oqroq text-2xl ml-5  '>Fakultetlar</h1>
+           <div className='flex w-11/12 items-center justify-start my-20 border-b-2 border-white'>
+                <h1 className='text-grenn text-2xl ml-5 uppercase font-mono font-bold'>Fakultetlar</h1>
             </div>
          {
              fuculty.map((el,index) =>{
@@ -47,10 +47,10 @@ useEffect(() =>{
                 id="Link"
                  key={index}
                  className={
-                  'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-kokroq  h-24 bg-white relative'
+                  'flex flex-col items-center justify-between items-center justify-around shadow-4xl h-32 w-64   relative p-2'
                   }>
-                  <Image className={'w-7 h-7'} src={el.img} alt='icon' />
-                   <p className={'text-grey'}>{el.name}</p>
+                  <Image className={'w-10 h-10'} src={el.img} alt='icon' />
+                   <p className={'text-grenn font-bold text-center w-10/12 uppercase'}>{el.name}</p>
                    <span className='absolute bottom-0 w-0  bg-blue h-1'></span>
                 </Link>
               )

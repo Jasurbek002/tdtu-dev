@@ -4,7 +4,6 @@ import { items4 } from '../../components/data/items';
 import Boss from '../../components/boss/boss';
 import Image from 'next/image';
 import strel from './../../public/assets/images/strel.png'
-import qobul from './../../public/assets/images/qobul.jpg'
 import download from './../../public/assets/svg/download.svg'
 import { images } from '../../public/assets';
 const Talaba = () => {
@@ -24,7 +23,7 @@ const Talaba = () => {
         }
       </div>
       <Boss
-        image={qobul}
+        image={images.qobil}
         name={"Muxiddinov Qobiljon Akmal o'g'li"}
         urven={"Bo'lim boshlig'i"}
         time={"Dushanba - Juma | 14:00 - 16:00"}

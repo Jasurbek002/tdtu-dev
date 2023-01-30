@@ -10,6 +10,7 @@ import bekmurod from './images/bekmurod.png'
 import dilshod2 from './images/dilshod2.jpg'
 import shavkatjon from './images/shavkatjon.jpg'
 import dilshod from './images/dilshod.jpg'
+import qobiljon from './images/qobul.jpg'
 export const images = {
     news:bgnews,
     slide:slide,
@@ -22,5 +23,6 @@ export const images = {
     bekmurod:bekmurod,
     dilshod2:dilshod2,
     shavkatjon:shavkatjon,
-    dilshod:dilshod
+    dilshod:dilshod,
+    qobil:qobiljon,
 }

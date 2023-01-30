@@ -50,10 +50,10 @@ const Talaba = () => {
           tashkil etish xamda ular faoliyatini rivojlantirishning kompleks dasturini ishlab chiqish;
         </li>
         <li>
-          Talabalar ilmiy jamiyati faoliyatini tashkillashtirish va rivojlantirish;
+          Talabalar ilmiy jamiyati faoliyatini tashkillashtirish va rivojlantirish.
         </li>
         <li>
-          Iqtidorli yoshlarning intellektual saloxiyatini davriy ravishda aniqlab borish;
+          Iqtidorli yoshlarning intellektual saloxiyatini davriy ravishda aniqlab borish.
         </li>
         <li>
           Iqtidorli yoshlarni ilmiy-tadqiqot ishlari xamda kafedralar qoshida

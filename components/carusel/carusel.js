@@ -36,6 +36,7 @@ function Carusel() {
         spaceBetween={1}
         style={{
           "--swiper-navigation-color": "#1b6b50",
+          "--swiper-navigation-backgroundColor":'#ffffff',
           "--swiper-pagination-color": "#1b6b50",
           transition:'all 2s ease-in-out'
          

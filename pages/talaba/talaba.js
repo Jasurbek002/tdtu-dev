@@ -23,7 +23,7 @@ const Talaba = () => {
         }
       </div>
       <Boss
-        image={images.qobil}
+        image={images.shavkatjon}
         name={"Muxiddinov Qobiljon Akmal o'g'li"}
         urven={"Bo'lim boshlig'i"}
         time={"Dushanba - Juma | 14:00 - 16:00"}
@@ -34,11 +34,6 @@ const Talaba = () => {
         wurvern1={"Bosh mutaxasis"}
         wtel1={"+998 91 329 09 59"}
         wgmail1={"xudoberdiyevshavkatjon@gmail.com"}
-        wimg2={images.shagzod}
-        wname2={"Rashidov Shohzodbek Abduvahobovich"}
-        wurvern2={"Bosh mutaxasis"}
-        wtel2={"+998971072692"}
-        wgmail2={"shoh.rashidov2103@gmail.com"}
       />
 
       <div className='w-2/4 p-5  shadow-2xl'>

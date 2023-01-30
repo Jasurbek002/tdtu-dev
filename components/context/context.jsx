@@ -4,6 +4,8 @@ const Context = ({children}) => {
 
     const [data,setData] = useState([])
     const [loading,setLoading] = useState(false)
+    const [lang,setLang] = useState(false)
+
     const [message,setMessage] = useState({active:false,message:'success!',status:200})
     const [modal,setModal] = useState(false)
     const [id,setId] = useState(0)
@@ -15,6 +17,7 @@ const Context = ({children}) => {
     const states = {
         loading,setLoading,
         data,setData,
+        lang,setLang,
         modal,setModal,
         message,setMessage,
         id,setId,

@@ -14,13 +14,13 @@ const Reyting = () => {
     return (
         <div className='flex flex-wrap w-full my-10 justify-around'>
             <h2 className='text-3xl w-full text-center  ml-10 uppercase font-bold text-grenn'>{items3[0]}</h2>
-          <div className='w-full flex justify-evenly items-center my-5'>
+          <div className='w-full flex-wrap flex justify-evenly items-center my-5'>
           {
             items3?.map((el,index) =>{
             if(typeof el ==='object'){
-                return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105 w-40 p-1 rounded-md m-2 flex items-center justify-between ' href='/'>
+                return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105  p-1 rounded-md m-2 flex items-center justify-between' href={`${el.path}`}>
                 {el.id}. {el.name}
-                 <Image className='w-8 h-8 rounded-full' src={strel} alt='icon'/>
+                 <Image className='w-6 h-6 rounded-full ml-5' src={strel} alt='icon'/>
              </Link>
             }
             })
@@ -39,6 +39,7 @@ const Reyting = () => {
            wurvern1={"Bosh mutaxasis"}
            wtel1={"+998 90 433 77 63"}
            wgmail1={"urajapbaev@gmail.com"}
+           status2={true}
            wimg2={images.shagzod}
            wname2={"Rashidov Shohzodbek Abduvahobovich"}
            wurvern2={"Bosh mutaxasis"}

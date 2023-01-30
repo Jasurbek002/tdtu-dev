@@ -17,21 +17,16 @@ import Search from '../components/search/search'
 import TostMessage from '../components/tost/tostMessage'
 
 export default function Home() {
-
   const {loading,setLoading,setMessage} = useContext(context)
-
   useEffect(()=>{
-    window.addEventListener('load',() =>{
-      setLoading(true)
-    })
-
+    window.onload = setLoading(true)
     setTimeout(() =>{
       setLoading(false)
     },5000)
-  },[loading])
+  },[])
+  
   
 
-  
   return (
     <div>
     <Head>

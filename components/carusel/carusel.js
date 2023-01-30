@@ -24,8 +24,6 @@ import Image from 'next/image';
 
 
 function Carusel() {
-
-
   return (
     <div 
     style={{
@@ -34,10 +32,7 @@ function Carusel() {
       height:'500px'
     }}
     className={styles.Carusel}>
-
-
       <Swiper
-
         spaceBetween={1}
         style={{
           "--swiper-navigation-color": "#1b6b50",
@@ -57,13 +52,10 @@ function Carusel() {
         fadeEffect={true}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 5500,
           pauseOnMouseEnter: true,
           disableOnInteraction: false
         }}
-
-
-
       >
         <SwiperSlide>
           <div 

@@ -34,6 +34,7 @@ const Boss = (
              <p className='text-grenn  mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail1}</p>
            </div>
            </div>
+           
            {/* <div 
            style={{
             display:status2 ? 'flex' : 'none'

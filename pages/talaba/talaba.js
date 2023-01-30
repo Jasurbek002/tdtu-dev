@@ -23,7 +23,7 @@ const Talaba = () => {
         }
       </div>
       <Boss
-        image={images.shavkatjon}
+        image={images.qobil}
         name={"Muxiddinov Qobiljon Akmal o'g'li"}
         urven={"Bo'lim boshlig'i"}
         time={"Dushanba - Juma | 14:00 - 16:00"}

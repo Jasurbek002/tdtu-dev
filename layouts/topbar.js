@@ -27,9 +27,7 @@ const Topbar = () => {
                <div className={styles.Topbar__btngroup__lang}>
                 <div 
                 style={{
-                    transition:lang ? 'all 1s ease-in-out' : 'all 1s ease-in-out',
-                    right:lang ? '7px': '',
-                    left:lang ? '7px' : ''
+                    left:lang ? '7px' : '50px'
                 }}
                 className={styles.Topbar__btngroup__lang__round}></div>
                   <p 

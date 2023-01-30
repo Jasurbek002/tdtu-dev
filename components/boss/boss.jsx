@@ -39,40 +39,52 @@ const Boss = (
             display:status2 ? 'flex' : 'none'
            }}
            className='w-full bg-kokroq rounded-md border-4 border-kokroq hover:border-grenn transform ease-in duration-300 '>
-           <Image className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg2} alt='img' />
+           <Image 
+           style={{
+            display:status2 ? 'flex' : 'none'
+           }}
+           className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg2 ? wimg2 : "https://picsum.photos/200/300"} alt='img' />
            <div className='w-96 text-start ml-5 border-l-2 border-oqroq pl-2'>
-           <p className='text-grenn font-bold  mb-1'>{wname2}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern2}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel2}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail2}</p>
+           <p className='text-grenn font-bold  mb-1'>{wname2 ? wname2 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern2 ? wurvern2 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel2 ? wtel2 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail2 ? wgmail2: ""}</p>
            </div>
            </div>
-           <div 
+           {/* <div 
            style={{
             display:status3 ? 'flex' : 'none'
            }}
            className='w-full bg-kokroq rounded-md border-4 border-kokroq hover:border-grenn transform ease-in duration-300 '>
-           <Image className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg3} alt='img' />
+           <Image
+           style={{
+            display:status2 ? 'flex' : 'none'
+           }}
+           className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg3 ? wimg3 : "https://picsum.photos/200/300"} alt='img' />
            <div className='w-96 text-start ml-5 border-l-2 border-oqroq pl-2'>
-           <p className='text-grenn font-bold  mb-1'>{wname3}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern3}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel3}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail3}</p>
+           <p className='text-grenn font-bold  mb-1'>{wname3 ? wname3 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern3 ? wurvern3 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel3 ? wtel3 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail3 ? wgmail3 : ""}</p>
            </div>
-           </div>
-           <div 
+           </div> */}
+           {/* <div 
            style={{
             display:status4 ? 'flex' : 'none'
            }}
            className='w-full bg-kokroq rounded-md border-4 border-kokroq hover:border-grenn transform ease-in duration-300 '>
-           <Image className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg4} alt='img' />
+           <Image
+           style={{
+            display:status2 ? 'flex' : 'none'
+           }}
+           className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg4 ? wimg4 : "https://picsum.photos/200/300"} alt='img' />
            <div className='w-96 text-start ml-5 border-l-2 border-oqroq pl-2'>
-           <p className='text-grenn font-bold  mb-1'>{wname4}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern4}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel4}</p>
-             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail4}</p>
+           <p className='text-grenn font-bold  mb-1'>{wname4 ? wname4 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern4 ? wurvern4 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel4 ? wtel4 : ""}</p>
+             <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail4 ? wgmail4 : ""}</p>
            </div>
-           </div>
+           </div> */}
         </div>
     );
 }

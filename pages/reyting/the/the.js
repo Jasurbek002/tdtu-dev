@@ -6,11 +6,12 @@ import theImage from './../../../public/assets/images/the.jpg'
 
 const The = () => {
     return (
-        <div className='w-full flex flex-col items-center my-10'>
-            <div style={{maxWidth:'1500px',height:"500px"}}>
-                <Image className='w-full h-full' src={theImage} alt='img' />
+        <div className='w-full flex flex-wrap text-center text-grenn justify-around items-center my-10'>
+            <h1 className='text-xl font-bold w-full'>THE RANKING</h1>
+            <div style={{maxWidth:'500px',height:"480px"}}>
+                <Image className='w-full h-full rounded-md' src={theImage} alt='img' />
             </div>
-            <p className='w-11/12 text-xl text-grenn my-10'>
+            <p className='w-2/4 text-start text-xl text-grenn my-10 p-5  shadow-2xl rounded-md'>
                 Buyuk Britaniyaning nufuzli reyting
                 tashkiloti – Times Higher Education
                 agentligi o‘zining World University

@@ -24,7 +24,7 @@ const Partner = () => {
         Aos.init()
     })
     return (
-        <div className='w-full flex flex-wrap items-center justify-evenly py-5  '>
+        <div className='w-full flex flex-wrap items-center justify-evenly py-5 partner'>
              <div
              data-aos="fade-right"
              className='flex w-full items-center justify-start my-5 bg'>

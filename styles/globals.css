@@ -23,6 +23,9 @@
   border: 2px solid white;
 }
 
+.partner{
+  background-color: rgba(3, 76, 144, 0.925);
+}
 
 /* .box{
   margin: 100px auto;

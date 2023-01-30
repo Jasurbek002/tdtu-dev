@@ -1,5 +1,5 @@
 export let items1 = [
-    "doktorantura yo'ki oliy ta'limdan keyingi ta'lim",
+    "Ilmiy–tadqiqotlar innovatsiyalar va pedagogik kadrlarni tayyorlash bo’limi",
     {
         id:1,
         name:'Mustaqil izlanuvchilar',

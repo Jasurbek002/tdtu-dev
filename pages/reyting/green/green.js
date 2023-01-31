@@ -9,7 +9,7 @@ const Grenn = () => {
             <div style={{ maxWidth: '600px', height: "580px" }}>
                 <Image className='w-full h-full rounded-md' src={greenImg} alt='img' />
             </div>
-            <div className='w-2/4 shadow-2xl p-4 rounded-md my-10'>
+            <div className='w-2/4 sm:w-full md:w-11/12 laptop:w-2/4 desktop:2/4 shadow-2xl p-4 rounded-md my-10'>
                 <p className='text-xl font-medium text-grenn text-start'>
                     Toshkent davlat texnika universiteti <Link className='text-blue' href={'https://tdtu.uz/en/home-2-2/'} >reyting</Link> dunyo OTMlarining
                     “Yashil reytingi “da

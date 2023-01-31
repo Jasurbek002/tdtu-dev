@@ -11,6 +11,9 @@ import dilshod2 from './images/dilshod2.jpg';
 import shavkatjon from './images/shavkatjon.jpg';
 import dilshod from './images/dilshod.jpg';
 import kabul from './images/kabul.jpg'
+import eeca from './images/eeca.png'
+import asia from './images/asia.png'
+import forum from './images/forum.jpg'
 export const images = {
     news:bgnews,
     slide:slide,
@@ -24,5 +27,8 @@ export const images = {
     dilshod2:dilshod2,
     shavkatjon:shavkatjon,
     dilshod:dilshod,
-    kabul:kabul
+    kabul:kabul,
+    asia:asia,
+    eeca:eeca,
+    forum:forum
 }

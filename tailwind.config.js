@@ -7,7 +7,12 @@ module.exports = {
   ],
   theme: {
     screens:{
-      'mobile': '481px'
+      'sm':'481px',
+      'mobile': '641px',
+      'tablet': '769px',
+      'laptop': '1024px',
+      'desktop':'1600px'
+
     },
     extend: {
       boxShadow:{

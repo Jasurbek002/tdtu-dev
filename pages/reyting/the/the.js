@@ -11,7 +11,7 @@ const The = () => {
             <div style={{maxWidth:'500px',height:"480px"}}>
                 <Image className='w-full h-full rounded-md' src={theImage} alt='img' />
             </div>
-            <p className='w-2/4 text-start text-xl text-grenn my-10 p-5  shadow-2xl rounded-md'>
+            <p className='w-2/4 sm:w-full mobile:w-11/12 laptop:w-2/4 desktop:w-2/4 text-start text-xl text-grenn my-10 p-5  shadow-2xl rounded-md'>
                 Buyuk Britaniyaning nufuzli reyting
                 tashkiloti – Times Higher Education
                 agentligi o‘zining World University

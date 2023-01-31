@@ -11,7 +11,7 @@ const Milliy = () => {
         <div className='w-full flex flex-wrap justify-around items-center my-10'>
                      <h1 className='text-xl mb-10 font-bold w-full text-center text-grenn'>MILLIY REYTING</h1>
             <div 
-            className='bg-kokroq rounded-md'
+            className='bg-kokroq rounded-md mb-10'
             style={{height: "450px" ,maxWidth:'600px'}}>
                 <p className='font-medium  text-xl shadow-2xl text-grenn w-full text-center'>Тошкент давлат техника университети Миллий ОТМлар рейтингида қуйидаги ўринларни эгаллади</p>
                 <Image className='w-full h-11/12' src={milliyimg} alt='img' />
@@ -20,7 +20,8 @@ const Milliy = () => {
             style={{
                 minHeight:'400px',
             }}
-            className='w-2/4  shadow-2xl rounded-md p-5 bg-kokroq '>
+
+            className='w-2/4 mobile:w-11/12 desktop:w-2/4 laptop:w-2/4 sm:w-full tablet:w-11/12  shadow-2xl rounded-md p-5 mb-5 bg-kokroq '>
                 <p className='text-xl text-grenn font-medium'>
                 Тошкент давлат техника университети 2021 йил Миллий рейтингида 6-ўринни эгаллади
                 Олий ва ўрта махсус таълим вазирлигида олий таълим муассасалари ва академик лицейлар
@@ -46,7 +47,7 @@ const Milliy = () => {
 
             
             <div
-             className='bg-kokroq rounded-md my-10 w-2/4 shadow-2xl'
+             className='bg-kokroq rounded-md my-10 w-2/4 desktop:w-2/4 laptop:w-2/4 mobile:w-11/12 sm:w-full tablet:w-11/12 shadow-2xl'
             style={{  height: "450px"  }}>
             <p className='font-medium  text-xl text-grenn w-full text-center'>
                 Техника ва қишлоқ хўжалиги соҳаси бўйича ОТМлар рейтингида

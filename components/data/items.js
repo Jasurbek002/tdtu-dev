@@ -96,13 +96,8 @@ export let items4 = [
     },
     {
         id:5,
-        name:'Tanlovlar',
-        path:'/olimpiada'
-    },
-    {
-        id:6,
-        name:'Talabalar Forum',
-        path:'/olimpiada'
+        name:'Tanlovlar va Forum',
+        path:'/talaba/forum/forum'
     },
 ]
 

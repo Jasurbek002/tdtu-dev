@@ -4,7 +4,6 @@ import { items2 } from '../../components/data/items';
 // import Boss from '../../components/boss/boss';
 import Image from 'next/image';
 import strel from './../../public/assets/images/strel.png'
-// import adham from './../../public/assets/images/adhamjon.png'
 import download from './../../public/assets/svg/download.svg'
 const Tadqiqot = () => {
     return (

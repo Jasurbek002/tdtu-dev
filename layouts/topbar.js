@@ -27,15 +27,15 @@ const Topbar = () => {
                <div className={styles.Topbar__btngroup__lang}>
                 <div 
                 style={{
-                    left:lang ? '7px' : '50px'
+                    left:`${lang ? '7px' : '50px'}`
                 }}
                 className={styles.Topbar__btngroup__lang__round}></div>
-                  <p 
+                  <button 
                   onClick={() => setLang(true)}
-                  >uz</p>  
-                  <p
+                  >uz</button>  
+                  <button
                   onClick={() => setLang(false)}
-                  >en</p>
+                  >en</button>
                </div>
 
                 <buttom className={styles.Topbar__btngroup__btn}>

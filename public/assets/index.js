@@ -10,10 +10,21 @@ import bekmurod from './images/bekmurod.png';
 import dilshod2 from './images/dilshod2.jpg';
 import shavkatjon from './images/shavkatjon.jpg';
 import dilshod from './images/dilshod.jpg';
-import kabul from './images/kabul.jpg'
-import eeca from './images/eeca.png'
-import asia from './images/asia.png'
-import forum from './images/forum.jpg'
+import kabul from './images/kabul.jpg';
+import latofat from './images/latofat.jpg';
+import jamal from './images/jamol.jpg';
+import timur from './images/timur.jpg';
+import oybek from './images/oybek.jpg';
+import eeca from './images/eeca.png';
+import asia from './images/asia.png';
+import forum from './images/forum.jpg';
+
+// partners images
+import oliy from './images/oliy.jpg';
+import ziyo from './../../public/assets/images/ziyo.jpg';
+import govuz from './../../public/assets/images/govuz.png';
+import gerb from './../../public/assets/images/gerb.png';
+
 export const images = {
     news:bgnews,
     slide:slide,
@@ -28,7 +39,15 @@ export const images = {
     shavkatjon:shavkatjon,
     dilshod:dilshod,
     kabul:kabul,
+    timur:timur,
+    latofat:latofat,
+    jamal:jamal,
+    oybek:oybek,
     asia:asia,
     eeca:eeca,
-    forum:forum
+    forum:forum,
+    oliy:oliy,
+    ziyo:ziyo,
+    gerb:gerb,
+    govuz:govuz
 }

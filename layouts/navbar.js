@@ -2,14 +2,31 @@ import Link from 'next/link';
 import styles from '../styles/navbar.module.scss'
 import { useRouter } from 'next/router';
 import {items1,items2,items3,items4,items5,items6} from '../components/data/items'
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+const [open,setOpen] = useState(false)
 const router = useRouter()
+// useEffect(() =>{
+//     setOpen(false)
+//     // if(location.pathname === '/%'){
+//     //     setOpen(false)
+//     // }
+// },[location.pathname])
+
     return (
         <div 
-        style={{display:'flex'}}
         className={styles.Navbar}>
-              <ul className={styles.Navbar__nav}>
+            <h1 className={styles.Navbar__title}>ILMIY FAOLIYAT</h1>
+            <div 
+            // onClick={() => setOpen((x) => !x)}
+            className={styles.Navbar__toggle}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+              <ul 
+              className={styles.Navbar__nav}>
                 <li key={Math.random()}
               className={styles.Navbar__nav__item}>
                     <Link
@@ -108,8 +125,8 @@ const router = useRouter()
                 <li className={styles.Navbar__nav__item}>
                     <Link 
                     className={
-                        router.pathname == '/404' ?  styles.Navbar__nav__item__link : styles.Navbar__nav__item__unlink }
-                    href='/404' >INNO Texnopark</Link>
+                        router.pathname == '/inno/inno' ?  styles.Navbar__nav__item__link : styles.Navbar__nav__item__unlink }
+                    href='/inno/inno' >INNO Texnopark</Link>
                 </li>
                </ul>    
 

@@ -5,9 +5,15 @@
     justify-content: center;
     padding: 15px 0px;
     background-color: #1b6b50;
-    position: sticky;
-    top:0px;
     z-index: 50;
+    top:0 ;
+    position: sticky;
+    &__title{
+      display: none;
+    }
+    &__toggle{
+      display: none;
+    }
     &__nav{
         width: 90%;
         display: flex;
@@ -18,12 +24,10 @@
             position: relative;
             height: auto;
             transition:all 0.5s ease-in-out;
-            
-            // border-left: 2px solid white;
             &:hover .Navbar__nav__item__menu{
               top: 30px;
               transition:all 0.5s ease-out;
-              display: flex;
+              // display: flex;
               opacity: 1;
               scale: 1;
               
@@ -36,8 +40,6 @@
                 font-family:'Roboto-Bold' sans-serif ;
                 border-bottom: 2px solid white;
                 transition: 0.5s all ease-in-out;
-                border-left: 2px solid rgba(255, 255, 255, 0.395);
-                border-right: 2px solid rgba(255, 255, 255, 0.458);
                 padding: 0 10px;
                
             }
@@ -48,8 +50,6 @@
               font-family:'Roboto-Bold' sans-serif ;
               color:white;
               padding: 0 10px;
-              border-left: 2px solid rgba(255, 255, 255, 0.386);
-              border-right: 2px solid rgba(255, 255, 255, 0.307);
               &:hover{
                 transition: 1s all ease-in-out;
                 border-bottom: 2px solid white;
@@ -104,4 +104,65 @@
     }
 }
 
+// screen tablet
+@media only screen and (max-width:1300px) {
+  .Navbar{
+    &__nav{
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+}
 
+// screen mobile
+@media only screen and (max-width:1300px){
+  .Navbar{
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 20px;
+    &__title{
+      display: flex;
+      font-size: 30px;
+      font-weight: 800;
+      color: white;
+    }
+    &__toggle{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+       width: 40px;
+       height: 30px;
+       cursor: pointer;
+       span{
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        border-radius: 3px;
+       }
+    }
+    &__nav{
+     position: absolute;
+     display: block;
+     text-align: center;
+     background: rgb(27,107,80);
+     background: linear-gradient(0deg, rgba(27,107,80,0.6486486486486487) 9%, rgba(27,107,80,0.6644144144144144) 22%, rgba(27,107,80,0.7297297297297297) 35%, rgba(27,107,80,0.795045045045045) 47%, rgba(27,107,80,0.8851351351351351) 60%, rgba(27,107,80,1) 75%, rgba(27,107,80,1) 94%);
+     top: 65px;
+     right: 0;
+     left: 0;
+     width: 100%;
+     transition: all .5s ease-in;
+     border-color: transparent;
+     padding: 20px 0;
+     &__item{
+      margin-top: 10px;
+      &__link{
+
+      }
+      &__menu{
+        display:none;
+      }
+     }
+    }
+  }
+}

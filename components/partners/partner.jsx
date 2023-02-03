@@ -1,24 +1,12 @@
 import Image from "next/image";
-import Button from '@mui/material/Button';
-
 import { Navigation, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/thumbs'
-
-import oliy from './../../public/assets/images/oliy.jpg'
-import ziyo from './../../public/assets/images/ziyo.jpg'
-import govuz from './../../public/assets/images/govuz.png'
-import gerb from './../../public/assets/images/gerb.png'
-
 import Aos  from "aos";
 import { useEffect } from "react";
-
-
-
-
-
+import { images } from "../../public/assets/index.js";
 const Partner = () => {
     useEffect(() =>{
         Aos.init()
@@ -60,22 +48,22 @@ const Partner = () => {
                >
                 <SwiperSlide>
                 <div className=' w-48 rotate-45 h-48 py-5 bg-white flex flex-col items-center shadow my-10  hover:scale-105 hover:animate-pulse hover:border-2 hover:border-grenn transform ease-in-out duration-500'>
-                <Image className='w-36 h-36 -rotate-45 rounded-full' src={oliy}  alt='icon'/>
+                <Image className='w-36 h-36 -rotate-45 rounded-full' src={images.oliy}  alt='icon'/>
                 </div>
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className='w-48 rotate-45 h-48 py-5 bg-white flex flex-col items-center shadow my-10 hover:scale-105 hover:animate-pulse hover:border-2 hover:border-grenn transform ease-in-out duration-500'>
-                <Image className='w-36 h-36 -rotate-45 rounded-full' src={govuz}  alt='icon'/>
+                <Image className='w-36 h-36 -rotate-45 rounded-full' src={images.govuz}  alt='icon'/>
                  </div> 
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className='w-48 rotate-45 h-48 py-5 bg-white flex flex-col items-center shadow my-10 hover:scale-105 hover:animate-pulse hover:border-2 hover:border-grenn transform ease-in-out duration-500'>
-                <Image className='w-36 h-36 -rotate-45 rounded-full' src={ziyo}  alt='icon'/>
+                <Image className='w-36 h-36 -rotate-45 rounded-full' src={images.ziyo}  alt='icon'/>
                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className='w-48 rotate-45 h-48 py-5 bg-white flex flex-col items-center shadow my-10 hover:scale-105 hover:animate-pulse hover:border-2 hover:border-grenn transform ease-in-out duration-500'>
-                <Image className='w-36 h-36 -rotate-45 rounded-full' src={gerb}  alt='icon'/>
+                <Image className='w-36 h-36 -rotate-45 rounded-full' src={images.gerb}  alt='icon'/>
             </div>
                 </SwiperSlide>
             </Swiper>

@@ -96,7 +96,6 @@
                 color: white;
                 transition: all .5s ease-in-out;
             }
-            // @apply w-full h-30 flex items-center justify-around text-blue bg-white rounded-md cursor-pointer p-1;
         }
     }
     
@@ -111,7 +110,40 @@
     margin-right: auto;
 }
 
+// screen tablet
+@media only  screen and (max-width:1326px)  {
+    .Topbar{
+        &__logo{
+            &__title{
+                display: none;
+            }
+        }
+        &__name{
+            margin-right:0;
+        }
+    }
+}
 
+// screen mobile
+@media only  screen and (max-width:750px)  {
+    .Topbar{
+        justify-content: space-between;
+        &__logo{
+            &__img{
+                width: 80px;
+                height: 80px;
+                } 
+            &__title{
+                display: none;
+            }
+        }
+        &__name{
+            display: none;
+        }
+    }
+}
+
+// animation name
 @keyframes bause{
     from{
       left: 0%;

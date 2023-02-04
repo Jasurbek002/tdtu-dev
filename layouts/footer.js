@@ -21,21 +21,32 @@ const Footer = () => {
 
            <ul className={styles.Footer__nav}>
                 <li className={styles.Footer__nav__item}>
-                    <a className='no-underline flex w-60 items-center ' href='#'><Image className='w-10 h-10' src={telegram} alt='icon' /></a>
+                    <a className='no-underline flex  items-center'
+                    target='_blank'
+                     href='https://t.me/ToshDTU_Matbuot_Xizmati'>
+                        <Image className='w-10 h-10' src={telegram} alt='icon' /></a>
                 </li>
                 <li className={styles.Footer__nav__item}>
-                    <a className='no-underline flex items-center ' href='#'><Image className='w-10 h-10' src={instagram} alt='icon' /></a>
+                    <a className='no-underline flex items-center'
+                    target='_blank'
+                    href='https://t.me/ToshDTU_Matbuot_Xizmati'>
+                        <Image className='w-10 h-10' src={instagram} alt='icon' /></a>
                 </li>
                 <li className={styles.Footer__nav__item}>
-                    <a className='no-underline flex items-center' href='#'><Image className='w-10 h-10' src={youtube} alt='icon' /></a>
+                    <a className='no-underline flex items-center'
+                     target='_blank'
+                     href='https://t.me/ToshDTU_Matbuot_Xizmati'>
+                        <Image className='w-10 h-10' src={youtube} alt='icon' /></a>
                 </li>
            </ul>
 
 
 
-          <ul>
+          <ul className={styles.Footer__info}>
             <li className='text-white'>
-                <Link href='/' >Manzil:Toshkent shaxar universitet ko'chasi 2-uy</Link>
+                <Link 
+                href='/' >Manzil:Toshkent shaxar 
+                universitet ko'chasi 2-uy</Link>
             </li>
             <li className='text-white'>
                 <Link href='mailto:tstu_info@tdtu.uz' >Email: tstu_info@tdtu.uz</Link>

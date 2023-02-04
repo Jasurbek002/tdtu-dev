@@ -100,6 +100,32 @@ function Carusel() {
             </div>
           </div>
           </SwiperSlide>
+          <SwiperSlide>
+          <div 
+          style={{
+            width:'100%',
+            height:'500px'
+          }}
+          className={styles.Carusel__banner}>
+            <div className={styles.Carusel__banner__card}>
+                 <h1 className={styles.Carusel__banner__card__title}>
+                 ILMIY TADQIQOT ISHLARINI TASHKIL ETISH, 
+                 MAVJUD MUAMMOLAR HAMDA TAKLIFLAR BO’YICHA 
+                 YOSH OLIMLAR BILAN UCHRASHUV O’TKAZILDI
+                 </h1>
+                 <p className={styles.Carusel__banner__card__text}>
+                 Joriy yilning 31-yanvar kuni O‘zbek-Yapon yoshlar 
+                 innovatsion markazida 2023-yilda oliy ta’limdan keyingi 
+                 ta’lim (PhD/DSc) hamda stajyor-tadqiqotchilik institutlariga 
+                 o‘qishga qabul qilingan tadqiqotchilar bilan universitet o‘quv 
+                 ishlari 
+                 </p>
+            </div>
+            <div className={styles.Carusel__banner__media}>
+                <Image className={styles.Carusel__banner__media__img} src={images.banner1} alt='img' />
+            </div>
+          </div>
+          </SwiperSlide>
       </Swiper>
      
     </div>

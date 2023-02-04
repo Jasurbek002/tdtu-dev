@@ -14,35 +14,11 @@ const News = () => {
     }, [])
     return (
         <>
-
-
-
             <div
-                style={{
-                   
-                    height: '500px'
-
-                }}
                 className={styles.newscontiner}>
                 <div className='flex w-full items-center justify-start mb-5 '>
                     <h1 className='text-grenn text-2xl font-mono font-bold ml-5 uppercase'>So'ngi e'lonlar</h1>
                 </div>
-
-                {/* <div
-                        data-aos="flip-left"
-                        style={{ backgroundColor: 'lightskyblue' }}
-                        className={styles.card}>
-                            <div className={styles.card__bg}>
-
-                            </div>
-                        <Image className={styles.card__img} src={img} alt='card img' />
-                        <h4 className={styles.card__title}>songi yangilik</h4>
-                        <p className={styles.card__text}>bu universitetimizda rektoz bilan uchrashuv bo'lib
-                            o'tdi unda universitetimiz talabalari faol qatnshdi
-                        </p>
-                       
-                    </div> */}
-
                 <div className={styles.news}>
                     <Image src={images.xashar} alt="icon" />
                     <div className={styles.news__info}>

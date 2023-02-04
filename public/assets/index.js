@@ -19,6 +19,9 @@ import eeca from './images/eeca.png';
 import asia from './images/asia.png';
 import forum from './images/forum.jpg';
 
+// banner imagas
+import banner1 from './images/banner.jpg'
+
 // partners images
 import oliy from './images/oliy.jpg';
 import ziyo from './../../public/assets/images/ziyo.jpg';
@@ -49,5 +52,6 @@ export const images = {
     oliy:oliy,
     ziyo:ziyo,
     gerb:gerb,
-    govuz:govuz
+    govuz:govuz,
+    banner1:banner1
 }

@@ -12,7 +12,7 @@ const Partner = () => {
         Aos.init()
     })
     return (
-        <div className='w-full flex flex-wrap items-center justify-evenly py-5 partner'>
+        <div className='w-full flex flex-wrap items-center justify-evenly py-5 partner '>
              <div
              data-aos="fade-right"
              className='flex w-full items-center justify-start my-5 bg'>
@@ -25,26 +25,30 @@ const Partner = () => {
                navigation={true}
                grabCursor={true}
                loop = {true}
-               spaceBetween ={50}
+               spaceBetween ={0}
                breakpoints={{
                 481:{
                     slidesPerView: 1,
                     spaceBetween: 20,
+                    loop:true
                 },
                 640: {
                   slidesPerView: 2,
                   spaceBetween: 20,
+                  loop:true
                 },
                 768: {
                   slidesPerView: 3,
                   spaceBetween: 40,
+                  loop:true
                 },
                 1024: {
                   slidesPerView: 4,
-                  spaceBetween: 50,
+                  spaceBetween: 20,
+                  loop:true
                 },
               }}
-               className={' w-11/12 flex items-center  justify-evenly'}
+               className={' w-full flex items-center   justify-center flex-wrap'}
                >
                 <SwiperSlide>
                 <div className=' w-48 rotate-45 h-48 py-5 bg-white flex flex-col items-center shadow my-10  hover:scale-105 hover:animate-pulse hover:border-2 hover:border-grenn transform ease-in-out duration-500'>

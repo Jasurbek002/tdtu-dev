@@ -1,3 +1,5 @@
+
+import {images} from '../../public/assets/index'
 export let items1 = [
     "Ilmiy–tadqiqotlar innovatsiyalar va pedagogik kadrlarni tayyorlash bo’limi",
     {
@@ -94,11 +96,11 @@ export let items4 = [
         name:'Olimpiadalar',
         path:'/talaba/olimp/olimp'
     },
-    {
-        id:5,
-        name:'Tanlovlar va Forum',
-        path:'/talaba/forum/forum'
-    },
+    // {
+    //     id:5,
+    //     name:'Tanlovlar va Forum',
+    //     path:'/talaba/forum/forum'
+    // },
 ]
 
 export let items5 = [
@@ -113,11 +115,11 @@ export let items5 = [
         name:"Start-up loyixa",
         path:'/tijorat/startup',
     },
-    {
-        id:3,
-        name:"Spin-off korxonalar",
-        path:'/tijorat/spin',
-    },
+    // {
+    //     id:3,
+    //     name:"Spin-off korxonalar",
+    //     path:'/tijorat/spin',
+    // },
     {
         id:4,
         name:"Muommoli ishlanmalar royxati",
@@ -127,30 +129,34 @@ export let items5 = [
 ]
 
 export let items6 = [
-    "Ilimy-jurnallar va Ilmiy ishlanmalar bo'limi",
+    "Ilimy-jurnallar va Ilmiy ishlanmalar",
     {
         id:1,
         name:"Technical science and innovation",
         path:'/jurnal/technical',
+        img:images.technikal
     },
     {
         id:2,
         name:"Ta'lim tizimida ijtimoiy-gumanitar fanlar",
         path:'/jurnal/education',
+        img:images.tailm
     },
     {
         id:3,
         name:"Energiya va resurs tejash muammolari",
         path:'/jurnal/eneegy',
+        img:images.energy
     },
     {
         id:4,
         name:"Chemical technology control and management",
         path:'/jurnal/chemical',
+        img:images.chemical
     },
-    {
-        id:5,
-        name:"Konchilik mashinalari va texnologiyalari",
-        path:'/jurnal/technologik',
-    },
+    // {
+    //     id:5,
+    //     name:"Konchilik mashinalari va texnologiyalari",
+    //     path:'/jurnal/technologik',
+    // },
 ]

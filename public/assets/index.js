@@ -28,6 +28,13 @@ import ziyo from './../../public/assets/images/ziyo.jpg';
 import govuz from './../../public/assets/images/govuz.png';
 import gerb from './../../public/assets/images/gerb.png';
 
+// jurnals
+import chemical from './images/chemical.png'
+import energy from './images/energy.jpg'
+import technikal from './images/technical.jpg'
+import tailm from './images/tailm.jpg'
+
+
 export const images = {
     news:bgnews,
     slide:slide,
@@ -53,5 +60,9 @@ export const images = {
     ziyo:ziyo,
     gerb:gerb,
     govuz:govuz,
-    banner1:banner1
+    banner1:banner1,
+    chemical:chemical,
+    technikal:technikal,
+    energy:energy,
+    tailm:tailm
 }

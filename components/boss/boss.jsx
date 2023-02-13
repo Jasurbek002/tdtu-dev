@@ -35,7 +35,7 @@ const Boss = (
            </div>
            </div>
            
-           {/* <div 
+           <div 
            style={{
             display:status2 ? 'flex' : 'none'
            }}
@@ -51,7 +51,7 @@ const Boss = (
              <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Telefon: </span>{wtel2 ? wtel2 : ""}</p>
              <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>E-Mail: </span>{wgmail2 ? wgmail2: ""}</p>
            </div>
-           </div> */}
+           </div>
            {/* <div 
            style={{
             display:status3 ? 'flex' : 'none'

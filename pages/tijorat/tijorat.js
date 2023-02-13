@@ -9,19 +9,8 @@ import { images } from '../../public/assets/index';
 const Tijorat = () => {
     return (
       <div className='flex flex-wrap w-full my-20 justify-around'>
-      <h2 className='text-3xl w-full text-center  ml-10 uppercase font-bold text-grenn'>{items5[0]}</h2>
-    <div className='w-full flex-wrap flex justify-evenly items-center my-5'>
-    {
-      items5?.map((el,index) =>{
-      if(typeof el ==='object'){
-          return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105  p-1 rounded-md m-2 flex items-center justify-between ' href={`${el.path}`}>
-          {el.id}. {el.name}
-           <Image className='w-6 h-6 rounded-full ml-5' src={strel} alt='icon'/>
-       </Link>
-      }
-      })
-     } 
-    </div>
+      <h2 className='text-3xl w-full text-center mb-5  ml-10 uppercase font-bold text-grenn'>{items5[0]}</h2>
+   
     <Boss
        image={images.bekmurod}
        name={"Raximjonov Bekmurodjon Baxtiyorjon òĝli"}
@@ -77,6 +66,18 @@ const Tijorat = () => {
             <Image className='w-8 ml-2' src={download} alt='icon' />
            </button>
              </div>
+             <div className='w-full flex-wrap flex justify-evenly items-center my-5'>
+    {
+      items5?.map((el,index) =>{
+      if(typeof el ==='object'){
+          return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105  p-1 rounded-md m-2 flex items-center justify-between ' href={`${el.path}`}>
+          {el.id}. {el.name}
+           <Image className='w-6 h-6 rounded-full ml-5' src={strel} alt='icon'/>
+       </Link>
+      }
+      })
+     } 
+    </div>
   </div>
     );
 }

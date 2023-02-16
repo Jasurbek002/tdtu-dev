@@ -12,7 +12,7 @@ import shavkatjon from './images/shavkatjon.jpg';
 import dilshod from './images/dilshod.jpg';
 import kabul from './images/kabul.jpg';
 import latofat from './images/latofat.jpg';
-import jamal from './images/jamol.jpg';
+import jamal from './images/jamal.jpg';
 import timur from './images/timur.jpg';
 import oybek from './images/oybek.jpg';
 import eeca from './images/eeca.png';
@@ -33,6 +33,12 @@ import chemical from './images/chemical.png'
 import energy from './images/energy.jpg'
 import technikal from './images/technical.jpg'
 import tailm from './images/tailm.jpg'
+
+//reyting logo
+import theranking from './images/theranking.png';
+import rencing from './images/rencing.png'
+import qslogo from './images/qslogo.png'
+import grennmetric  from './images/grennmetric.png'
 
 
 export const images = {
@@ -64,5 +70,9 @@ export const images = {
     chemical:chemical,
     technikal:technikal,
     energy:energy,
-    tailm:tailm
+    tailm:tailm,
+    theranking:theranking,
+    rencing:rencing,
+    qslogo:qslogo,
+    grennmetric:grennmetric
 }

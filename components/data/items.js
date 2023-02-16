@@ -59,22 +59,26 @@ export let items3 = [
     {
         id:1,
         name:'QS Ranking',
-        path:'/reyting/qs/qs'
+        path:'/reyting/qs/qs',
+        img:images.qslogo,
     },
     {
         id:2,
         name:'THE Ranking',
-        path:'/reyting/the/the'
+        path:'/reyting/the/the',
+        img:images.theranking,
     },
     {
         id:3,
         name:'Milliy reyting',
-        path:'/reyting/milliy/milliy'
+        path:'/reyting/milliy/milliy',
+        img:images.rencing,
     },
     {
         id:4,
         name:'Greenmetric',
-        path:'/reyting/green/green'
+        path:'/reyting/green/green',
+        img:images.grennmetric,
     }
 ]
 

@@ -78,9 +78,8 @@ const Reyting = () => {
           {
             items3?.map((el,index) =>{
             if(typeof el ==='object'){
-                return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105  p-1 rounded-md m-2 flex items-center justify-between' href={`${el.path}`}>
-                {el.id}. {el.name}
-                 <Image className='w-6 h-6 rounded-full ml-5' src={strel} alt='icon'/>
+                return <Link key={index} className='bg-kokroq w-72 h-64 mt-10 shadow-lg border-4 border-white text-grenn font-bold transforum ease-out duration-500 hover:border-grenn  rounded-md m-2 flex items-center justify-between' href={`${el.path}`}>
+                 <Image className='w-full h-full' src={el.img} alt='icon'/>
              </Link>
             }
             })

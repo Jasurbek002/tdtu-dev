@@ -44,7 +44,7 @@ const Boss = (
            style={{
             display:status2 ? 'flex' : 'none'
            }}
-           className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg2 ? wimg2 : "https://picsum.photos/200/300"} alt='img' />
+           className='w-32 h-32 mt-2 ml-1 rounded-md' src={wimg2} alt='img' />
            <div className='w-96 text-start ml-5 border-l-2 border-oqroq pl-2'>
            <p className='text-grenn font-bold  mb-1'>{wname2 ? wname2 : ""}</p>
              <p className='text-grenn mb-1'><span className='text-md font-bold text-blue'>Lavozimi: </span>{wurvern2 ? wurvern2 : ""}</p>

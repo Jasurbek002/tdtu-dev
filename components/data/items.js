@@ -79,6 +79,12 @@ export let items3 = [
         name:'Greenmetric',
         path:'/reyting/green/green',
         img:images.grennmetric,
+    },
+    {
+        id:5,
+        name:'SCImago',
+        path:'/reyting/sci/mago',
+        img:images.grennmetric,
     }
 ]
 

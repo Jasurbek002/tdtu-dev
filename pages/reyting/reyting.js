@@ -78,7 +78,7 @@ const Reyting = () => {
           {
             items3?.map((el,index) =>{
             if(typeof el ==='object'){
-                return <Link key={index} className='bg-kokroq w-72 h-64 mt-10 shadow-lg border-4 border-white text-grenn font-bold transforum ease-out duration-500 hover:border-grenn  rounded-md m-2 flex items-center justify-between' href={`${el.path}`}>
+                return <Link key={index} className=' w-72 h-64 mt-10 shadow-lg border-4 border-transparent text-grenn font-bold transforum ease-out duration-500 hover:border-grenn  rounded-md m-2 flex items-center justify-between' href={`${el.path}`}>
                  <Image className='w-full h-full' src={el.img} alt='icon'/>
              </Link>
             }

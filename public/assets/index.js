@@ -40,7 +40,16 @@ import rencing from './images/rencing.png'
 import qslogo from './images/qslogo.png'
 import grennmetric  from './images/grennmetric.png'
 
+import mago from './images/scimago.jpg'
 
+// texno static
+import texno1 from './static/texno1.jpg'
+import texno2 from './static/texno2.jpg'
+import texno3 from './static/texno3.jpg'
+
+export {texno1,texno2,texno3}
+
+// from to images file
 export const images = {
     news:bgnews,
     slide:slide,
@@ -74,5 +83,6 @@ export const images = {
     theranking:theranking,
     rencing:rencing,
     qslogo:qslogo,
-    grennmetric:grennmetric
+    grennmetric:grennmetric,
+    mago:mago
 }

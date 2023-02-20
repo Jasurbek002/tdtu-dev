@@ -1,29 +1,18 @@
-import React,{useContext, useEffect, useState} from 'react'
+import React,{useContext, useEffect, useState,Suspense} from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import Carusel from '../components/carusel/carusel'
-import Fuculy from '../components/fuclities/fuculy'
+import dynamic from 'next/dynamic'
 import Loading from '../components/loading/loading'
-import News from '../components/news/news'
-import Partner from '../components/partners/partner'
-import Score from '../components/score/score'
-import styles from '../styles/Home.module.css'
-import HeroWidget from '../components/widjed/widjed'
+// import Search from '../components/search/search'
 
 
+const Router = dynamic(() => import('../router/index'),{
+  loading:() => <Loading />
+})
 
-import { context } from '../components/context/context'
-import Search from '../components/search/search'
 import TostMessage from '../components/tost/tostMessage'
 
 export default function Home() {
-  const {loading,setLoading,setMessage} = useContext(context)
-  useEffect(()=>{
-    window.onload = setLoading(true)
-    setTimeout(() =>{
-      setLoading(false)
-    },5000)
-  },[])
+  
   
   
 
@@ -36,16 +25,12 @@ export default function Home() {
       </Head>
       <main>
         <TostMessage />
-        <Loading />
-        {/* <Search state={null} /> */}
-        <div className={'flex w-full justify-center'}>
-        <Carusel  />
-        </div>
-        <News />
-        <Fuculy />
-        <Score fakul={300} students ={25000} teachers={990} forwork={50}  />
-        <Partner />
-        {/* <HeroWidget /> */}
+        {/* <Loading /> */}
+        <Suspense fallback={<Loading />} >
+        <Router />
+        </Suspense>
+      
+
       </main>
     </div>
   )

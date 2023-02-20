@@ -15,7 +15,7 @@ function HeroWidget() {
             "symbols": [
                 {
                     "proName": "FOREXCOM:TDTU",
-                    "title": "Ушбу сайт №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika universitetning innovatsion muhitini rivojlantirish modelini ishlab chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi Toshkent davlat texnika universiteti misolida)” «Разработка модели развития инновационной среды технического университета в условиях цифровой трансформации (на примере Белорусского национального технического университета и Ташкентского государственного технического университета имени Ислама Каримова)» (Илмий рахбар: ф.-м.ф.д., проф. Ш.Нематов) лойихаси доирасида яратилди"
+                    "title": "Ushbu sayt №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika universitetning innovatsion muhitini rivojlantirish modelini ishlab chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi Toshkent davlat texnika universiteti misolida)” (Ilmiy raxbar: f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi"
                 },
             ],
             "showSymbolLogo":true,

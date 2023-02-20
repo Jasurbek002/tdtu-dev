@@ -9,10 +9,7 @@ const Layout = ({children}) => {
 
     return (
         <div className={styles.container}>
-          <div 
-          
-          className={styles.bg}>
-          </div>
+          <div className={styles.bg}></div> 
           <Topbar />
           <Widjed />
           <Navbar />

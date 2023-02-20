@@ -7,13 +7,6 @@ import { useEffect, useState } from 'react';
 const Navbar = () => {
 const [open,setOpen] = useState(false)
 const router = useRouter()
-// useEffect(() =>{
-//     setOpen(false)
-//     // if(location.pathname === '/%'){
-//     //     setOpen(false)
-//     // }
-// },[location.pathname])
-
     return (
         <div 
         className={styles.Navbar}>

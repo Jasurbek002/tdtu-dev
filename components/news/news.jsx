@@ -4,7 +4,6 @@ import React from 'react';
 import Aos from 'aos';
 
 import styles from './../../styles/news.module.scss'
-import img from '../../public/assets/images/logo.jpg'
 import { images } from '../../public/assets/index';
 import { useEffect } from 'react';
 
@@ -20,7 +19,7 @@ const News = () => {
                     <h1 className='text-grenn text-2xl font-mono font-bold ml-5 uppercase'>So'ngi e'lonlar</h1>
                 </div>
                 <div className={styles.news}>
-                    <Image src={images.xashar} alt="icon" />
+                    <Image loading='lazy' src={images.xashar} alt="icon" />
                     <div className={styles.news__info}>
                     <h2 className='text-xl text-oqroq w-full my-4'>
                        Universitetimizda hashar

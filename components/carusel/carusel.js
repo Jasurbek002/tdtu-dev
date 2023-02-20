@@ -76,7 +76,7 @@ function Carusel() {
                  </p>
             </div>
             <div className={styles.Carusel__banner__media}>
-                <Image className={styles.Carusel__banner__media__img} src={images.slide} alt='img' />
+                <Image loading='lazy' className={styles.Carusel__banner__media__img} src={images.slide} alt='img' />
             </div>
           </div>
           </SwiperSlide>
@@ -96,7 +96,7 @@ function Carusel() {
                  </p>
             </div>
             <div className={styles.Carusel__banner__media}>
-                <Image className={styles.Carusel__banner__media__img} src={images.stipendiya} alt='img' />
+                <Image loading='lazy' className={styles.Carusel__banner__media__img} src={images.stipendiya} alt='img' />
             </div>
           </div>
           </SwiperSlide>
@@ -122,7 +122,7 @@ function Carusel() {
                  </p>
             </div>
             <div className={styles.Carusel__banner__media}>
-                <Image className={styles.Carusel__banner__media__img} src={images.banner1} alt='img' />
+                <Image loading='lazy' className={styles.Carusel__banner__media__img} src={images.banner1} alt='img' />
             </div>
           </div>
           </SwiperSlide>

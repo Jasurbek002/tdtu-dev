@@ -47,7 +47,7 @@ const Inno = () => {
                      }}
                   >
                    <SwiperSlide>
-                    <Image className='w-full h-[400px] rounded-md' src={texno1} alt='textno img' />
+                    <Image loading='lazy' className='w-full h-[400px] rounded-md' src={texno1} alt='textno img' />
                    </SwiperSlide>
                    <SwiperSlide>
                     <Image className='w-full h-[400px] rounded-md' src={texno2} alt='textno img' />

@@ -1,4 +1,4 @@
-
+/* 
 news btn
 button {
     border: none;
@@ -47,4 +47,13 @@ button {
    }
    button:active span::before {
     background: #2751cd;
+   } */
+
+
+
+
+   .texnobg{
+    background-image: url("../public/assets/static/texnobg.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
    }

@@ -2,6 +2,7 @@
   "name": "tdtu",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.science-tstu.uz/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -46,8 +46,9 @@ import mago from './images/scimago.jpg'
 import texno1 from './static/texno1.jpg'
 import texno2 from './static/texno2.jpg'
 import texno3 from './static/texno3.jpg'
+import texno4 from './static/texno4.jpg'
 
-export {texno1,texno2,texno3}
+export {texno1,texno2,texno3,texno4}
 
 // from to images file
 export const images = {

@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
   swcMinify:true,
+  // output: 'export',
   // unoptimized:true
   // output: 'export',
   // distDir: 'build',

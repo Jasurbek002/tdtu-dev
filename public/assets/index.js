@@ -17,7 +17,6 @@ import timur from './images/timur.jpg';
 import oybek from './images/oybek.jpg';
 import eeca from './images/eeca.png';
 import asia from './images/asia.png';
-import forum from './images/forum.jpg';
 
 // banner imagas
 import banner1 from './images/banner.jpg'
@@ -71,7 +70,6 @@ export const images = {
     oybek:oybek,
     asia:asia,
     eeca:eeca,
-    forum:forum,
     oliy:oliy,
     ziyo:ziyo,
     gerb:gerb,

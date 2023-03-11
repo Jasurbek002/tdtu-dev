@@ -18,7 +18,8 @@ const Accardion = ({name,desc}) => {
                         transition: 'transform 550ms',
                         
                     }}
-                      className='w-7 h-7' src={down} alt='icon' />
+                      className='w-7 h-7' 
+                      src={down} alt='icon' />
                 </button>
                 
             </div>

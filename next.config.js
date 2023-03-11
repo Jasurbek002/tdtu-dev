@@ -3,6 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
   swcMinify:true,
+  // exportPathMap: function() {
+  //   return {
+  //     '/': { page: '/' },
+  //   };
+  // },
   // output: 'export',
   // unoptimized:true
   // output: 'export',

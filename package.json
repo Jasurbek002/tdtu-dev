@@ -4,16 +4,12 @@
   "private": true,
   "homepage": "https://www.science-tstu.uz/",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "export":"next build && next export",
+    "export": "next build && next export",
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.10.12",
-    "@next/font": "^13.1.4",
     "aos": "^2.3.4",
     "axios": "^1.2.3",
     "express": "^4.18.2",

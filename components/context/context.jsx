@@ -7,24 +7,12 @@ const Context = ({children}) => {
     const [lang,setLang] = useState(false)
 
     const [message,setMessage] = useState({active:false,message:'success!',status:200})
-    const [modal,setModal] = useState(false)
-    const [id,setId] = useState(0)
-    const [path,setPath] = useState('/news')
-    const [asyncf,setAsync] = useState(false)
-    const [file,setFile] = useState({})
-    const [body,setBody] = useState({})
-
+ 
     const states = {
         loading,setLoading,
         data,setData,
         lang,setLang,
-        modal,setModal,
         message,setMessage,
-        id,setId,
-        path,setPath,
-        asyncf,setAsync,
-        file,setFile,
-        body,setBody,
     }
 
     return (

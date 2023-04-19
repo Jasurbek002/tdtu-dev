@@ -19,7 +19,7 @@ const Tadqiqot = () => {
            gamil={"dt3252000@gmail.com"}
            wimg1={images.jamal}
            wname1={"Jamoliddin Samariddinov"}
-           wurvern1={"Hr maneger"}
+           wurvern1={"Xodimlar bilan ishlash"}
            wtel1={"+99 895 555 50 59"}
            wgmail1={"jamoliddinsamariddinov059@gmail.com"}
            />
@@ -72,7 +72,7 @@ const Tadqiqot = () => {
           {
             items2?.map((el,index) =>{
             if(typeof el ==='object'){
-                return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105  p-1 rounded-md m-2 flex items-center justify-between' href='/'>
+                return <Link key={index} className='bg-kokroq shadow-lg text-grenn font-bold transforum ease-out duration-500 hover:scale-105  p-1 rounded-md m-2 flex items-center justify-between' href={el.path}>
                 {el.id}. {el.name}
                  <Image className='w-6 h-6 rounded-full ml-5' src={strel} alt='icon'/>
              </Link>

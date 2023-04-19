@@ -20,7 +20,7 @@ import asia from "./images/asia.png";
 
 // banner imagas
 import banner1 from "./images/banner.jpg";
-
+import banner2 from  "./static/fon.png"
 // partners images
 import oliy from "./images/oliy.jpg";
 import ziyo from "./../../public/assets/images/ziyo.jpg";
@@ -83,4 +83,5 @@ export const images = {
   qslogo: qslogo,
   grennmetric: grennmetric,
   web: web,
+  banner2:banner2
 };

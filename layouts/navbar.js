@@ -9,23 +9,26 @@ import {
   items5,
   items6,
 } from "../components/data/items";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  console.log(open);
   const router = useRouter();
   return (
     <div className={styles.Navbar}>
       <h1 className={styles.Navbar__title}>ILMIY FAOLIYAT</h1>
-      <div
-        // onClick={() => setOpen((x) => !x)}
-        className={styles.Navbar__toggle}
-      >
+      <div onClick={() => setOpen((x) => !x)} className={styles.Navbar__toggle}>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <ul className={styles.Navbar__nav}>
+      <ul
+        style={{
+          // display: open ? "blok" : "none",
+        }}
+        className={styles.Navbar__nav}
+      >
         <li key={Math.random()} className={styles.Navbar__nav__item}>
           <Link
             key={Math.random()}

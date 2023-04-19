@@ -37,7 +37,7 @@ export let items2 = [
   },
   {
     id: 3,
-    name: "Ilmiy loboratoria",
+    name: "ilmiy laboratoriya",
     path: "/tadqiqot/labaratoria/labaratorya",
     page: {
       id: 1,

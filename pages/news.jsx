@@ -42,7 +42,7 @@ const News = () => {
             src={images.organization}
             alt="img"
           />
-          <div className="max-w-[600px] items-start bg-white rounded-md p-2">
+          <div className="max-w-[600px] items-start bg-white rounded-md py-6 px-2">
             <h2 className="text-xl text-grenn font-medium my-3">
               ITAC-2023 is excited to invite you to attend with presentations
               under the theme “Current Challenges and Future Perspectives of
@@ -62,13 +62,11 @@ const News = () => {
             </ol>
             <h1 className="mt-5">Conference Coordinator: Adham Maxkamov</h1>
             <h1>Email: <a className="text-blue" href="mailto:a.makhamov@tdtu.uz">a.makhamov@tdtu.uz</a></h1>
-            <h1>Tel: <a className="text-blue" href="tel:+998 97 775 75 93">+998 97 775 75 93</a></h1>
+            <h1>Tel: <a className="text-blue" href="tel:+998 71 246-46-00">+998 71 246-46-00</a></h1>
             <h1 className="mt-5">Conference Coordinator: Umidjon  Rajapbaev</h1>
             <h1>Email: <a className="text-blue" href="mailto:umidrajapbaev1@gmail.com">umidrajapbaev1@gmail.com</a></h1>
             <h1>Tel: <a className="text-blue" href="tel:Tel:+998 90 433 77 63">+998 90 433 77 63</a></h1>
              <p className="mt-5">Tashkent State Technical University, University str. 2, Tashkent 100095, UZBEKISTAN</p>
-
-
           </div>
         </div>
       </div>

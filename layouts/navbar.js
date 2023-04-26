@@ -52,7 +52,7 @@ const Navbar = () => {
             }
             href="/doctarant/doktarant"
           >
-            Doktorantura
+           Doktorantura
           </Link>
           <div className={styles.Navbar__nav__item__menu}>
             <p key={Math.random()}>{items1[0]}</p>

@@ -20,7 +20,8 @@ import asia from "./images/asia.png";
 
 // banner imagas
 import banner1 from "./images/banner.jpg";
-import banner2 from  "./static/fon.png"
+import banner2 from  "./static/konfirence.png"
+
 // partners images
 import oliy from "./images/oliy.jpg";
 import ziyo from "./../../public/assets/images/ziyo.jpg";
@@ -49,7 +50,7 @@ import texno3 from "./static/texno3.jpg";
 export { texno1, texno2, texno3 };
 
 // news static
-import konfrence from "./static/konfirence.jpg";
+import konfrence from "./static/konfirence.png";
 import organization from "./static/organization.png";
 
 

@@ -52,7 +52,7 @@ const Footer = () => {
                 <Link href='mailto:tstu_info@tdtu.uz' >Email: tstu_info@tdtu.uz</Link>
             </li>
             <li className='text-white'>
-                <Link href='tel:+99871 000 00 00' >Tel: +99871 000 00 00</Link>
+                <Link href='tel:+998 71 246-46-00' >Tel: +998 71 246-46-00</Link>
             </li>
             <li className='text-white'>
                 <Link href='/' >TDTU fakultetlari</Link>
@@ -67,7 +67,7 @@ const Footer = () => {
 
           <ul>
             <li className='text-white'>
-                <Link href='/' >Home</Link>
+                <Link href='/' >Bosh sahifa</Link>
             </li>
             <li className='text-white'>
                 <Link href='/doctarant/doktarant' >Doktorantura</Link>

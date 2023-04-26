@@ -21,6 +21,7 @@ import image from "../../public/assets/images/univerimg.jpg";
 import { images } from "../../public/assets/index";
 
 import Image from "next/image";
+import Link from "next/link";
 
 function Carusel() {
   return (
@@ -76,6 +77,7 @@ function Carusel() {
                 organized by Tashkent State Technical University and will be
                 held in Tashkent, Uzbekistan during May 25-26, 2023.
               </p>
+              <Link className="px-2 rounded-sm text-blue border-2 border-blue bg-transparent" href={'/news'}>more</Link>
             </div>
             <div className={styles.Carusel__banner__media}>
               <Image

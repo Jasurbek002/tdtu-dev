@@ -48,6 +48,12 @@ import texno3 from "./static/texno3.jpg";
 
 export { texno1, texno2, texno3 };
 
+// news static
+import konfrence from "./static/konfirence.jpg";
+import organization from "./static/organization.png";
+
+
+
 // from to images file
 export const images = {
   news: bgnews,
@@ -83,5 +89,7 @@ export const images = {
   qslogo: qslogo,
   grennmetric: grennmetric,
   web: web,
-  banner2:banner2
+  banner2:banner2,
+  organization:organization,
+  konfrence:konfrence
 };

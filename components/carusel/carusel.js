@@ -80,7 +80,7 @@ function Carusel() {
               </p>
               <Link
                 className="px-2 rounded-sm text-blue border-2 border-blue bg-transparent"
-                href={"/news"}
+                href={"/news2"}
               >
                 more
               </Link>

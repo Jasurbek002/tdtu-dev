@@ -21,6 +21,7 @@ import asia from "./images/asia.png";
 // banner imagas
 import banner1 from "./images/banner.jpg";
 import banner2 from  "./static/konfirence.png"
+import news from "./static/news.jpg"
 
 // partners images
 import oliy from "./images/oliy.jpg";
@@ -94,5 +95,6 @@ export const images = {
   banner2:banner2,
   organization:organization,
   konfrence:konfrence,
-  robot:robot
+  robot:robot,
+  news:news
 };

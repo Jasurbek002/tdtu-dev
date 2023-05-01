@@ -53,7 +53,8 @@ export { texno1, texno2, texno3 };
 import konfrence from "./static/konfirence.png";
 import organization from "./static/organization.png";
 
-
+// robot img 
+import robot from "./static/robot.jpg"
 
 // from to images file
 export const images = {
@@ -92,5 +93,6 @@ export const images = {
   web: web,
   banner2:banner2,
   organization:organization,
-  konfrence:konfrence
+  konfrence:konfrence,
+  robot:robot
 };

@@ -68,6 +68,43 @@ function Carusel() {
           >
             <div className={styles.Carusel__banner__card}>
               <h1 className={styles.Carusel__banner__card__title}>
+                O'quvchi yoshlar, talabalar, yosh o'quvchilar va korhonalar
+                mutahassislari uchun robotics bo'yicha XALQARO TANLOV
+                "ROBOT.Uz-2023"
+              </h1>
+              <p className={styles.Carusel__banner__card__text}>
+                Islom Karimov nomidagi Toshkent davlat texnika universiteti
+                2023-yil 16-17-May kunlari robotika iqtidorli oʻquvchi va
+                talabalar, yosh oʻquvchilar, olim va mutahassislar uchun
+                "ROBOT.Uz-2023" 
+              </p>
+              <Link
+                className="px-2 rounded-sm text-blue border-2 border-blue bg-transparent"
+                href={"/news"}
+              >
+                more
+              </Link>
+            </div>
+            <div className={styles.Carusel__banner__media}>
+              <Image
+                loading="lazy"
+                className={styles.Carusel__banner__media__img}
+                src={images.robot}
+                alt="img"
+              />
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            style={{
+              width: "100%",
+              height: "500px",
+            }}
+            className={styles.Carusel__banner}
+          >
+            <div className={styles.Carusel__banner__card}>
+              <h1 className={styles.Carusel__banner__card__title}>
                 The First International Conference on Innovative Technologies in
                 Agri-food Chain: Problems and Perspectives (ITAC-2023)
               </h1>
@@ -77,7 +114,12 @@ function Carusel() {
                 organized by Tashkent State Technical University and will be
                 held in Tashkent, Uzbekistan during May 25-26, 2023.
               </p>
-              <Link className="px-2 rounded-sm text-blue border-2 border-blue bg-transparent" href={'/news'}>more</Link>
+              <Link
+                className="px-2 rounded-sm text-blue border-2 border-blue bg-transparent"
+                href={"/news"}
+              >
+                more
+              </Link>
             </div>
             <div className={styles.Carusel__banner__media}>
               <Image

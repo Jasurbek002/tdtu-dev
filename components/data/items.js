@@ -27,12 +27,12 @@ export let items2 = [
   "Ilmiy-tadqiqot qismi",
   {
     id: 1,
-    name: "Ilmiy texnik kengash",
+    name: "ILMIY-TEXNIK kengash",
     path: "/tadqiqot/texnik/texnik",
   },
   {
     id: 2,
-    name: "Ilmiy loyixalar",
+    name: "Ilmiy loyihalar",
     path: "/tadqiqot/loyha/loyha",
   },
   {

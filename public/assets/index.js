@@ -54,7 +54,7 @@ import konfrence from "./static/konfirence.png";
 import organization from "./static/organization.png";
 
 // robot img 
-import robot from "./static/robot.jpg"
+import robot from "./static/robot.png"
 
 // from to images file
 export const images = {
